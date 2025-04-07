@@ -1243,7 +1243,7 @@ export const resumeExp: resume[] = [
   {
     id: 9,
     title: "Blockchain Engineer",
-    subtitle: "Open to work",
+    subtitle: "Freelancing",
     desc: "Working on Solana, Aptos, and other blockchains.",
     badge: "2025 - present",
     experience: false,
