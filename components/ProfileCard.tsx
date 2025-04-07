@@ -5,6 +5,7 @@ import MyLink from "./MyLink";
 import Slide from "./Slide";
 import Typing from "./Typing";
 import Image from "next/image";
+import { FaTwitter } from "react-icons/fa";
 
 export default function ProfileCard() {
   return (
@@ -29,9 +30,9 @@ export default function ProfileCard() {
         <MediaIcons />
         <div className="absolute bottom-0 left-0 flex w-full h-28 borderLeft customLine">
           <MyLink
-            name="My Resume"
-            Icon={BsFillCloudArrowDownFill}
-            url="/resume/resume.pdf"
+            name="My Twitter"
+            Icon={FaTwitter}
+            url="https://x.com/MentholMen47387"
             border
           />
           <MyLink

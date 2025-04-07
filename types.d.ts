@@ -57,6 +57,7 @@ interface ExperienceData {
   subTitle: string
   title: string
   logo: { url: string }
+  link:string
 }
 
 interface SkillData {
@@ -241,5 +242,6 @@ export interface resume {
   badge:string
   logo:string
   experience:boolean
+  link:string
 }
 
