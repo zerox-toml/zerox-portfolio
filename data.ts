@@ -40,14 +40,14 @@ import {
 } from "./types"
 
 export const socialMedias: SocialMedia[] = [
-  // {
-  //   id: 1,
-  //   Icon: FaLinkedin,
-  //   label: "Linkedin",
-  //   logoColor: "#171515",
-  //   mediaUrl: "https://linkedin.com/in/aldinosaputra",
-  //   info: "Let's discuss professional vision in Linkedin.",
-  // },
+  {
+    id: 11,
+    Icon: FaLinkedin,
+    label: "Linkedin",
+    logoColor: "#171515",
+    mediaUrl: "https://linkedin.com/in/aldinosaputra",
+    info: "Let's discuss professional vision in Linkedin.",
+  },
   {
     id: 1,
     Icon: FaTwitter,
@@ -150,6 +150,14 @@ export const socialMedia: SocialMedia[] = [
     logoColor: "#5865f2",
     mediaUrl: "https://x.com/MentholMen47387",
     info: "Follow my X.",
+  },
+  {
+    id: 11,
+    Icon: FaLinkedin,
+    label: "Linkedin",
+    logoColor: "#5865f2",
+    mediaUrl: "https://linkedin.com/in/aldinosaputra",
+    info: "Let's discuss professional vision in Linkedin.",
   },
   {
     id: 1,
@@ -1258,7 +1266,7 @@ export const resumeExp: resume[] = [
     badge: "2024 - 2025",
     experience: false,
     logo: "",
-    link: "https://linkedin.com/in/tangibletrade",
+    link: "https://linkedin.com/company/tangibletrade",
   },
   {
     id: 10,
