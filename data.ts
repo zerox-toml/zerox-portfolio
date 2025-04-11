@@ -164,7 +164,7 @@ export const socialMedia: SocialMedia[] = [
     Icon: FaTelegram,
     label: "Telegram",
     logoColor: "black",
-    mediaUrl: "  https://t.me/zerox_toml",
+    mediaUrl: "  https://t.me/zerox_toml",  
     info: "I am open to work",
   },
 
