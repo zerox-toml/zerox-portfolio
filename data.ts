@@ -153,7 +153,7 @@ export const socialMedia: SocialMedia[] = [
   },
   {
     id: 11,
-    Icon: FaLinkedin,
+    Icon: FaLinkedin,  
     label: "Linkedin",
     logoColor: "#5865f2",
     mediaUrl: "https://linkedin.com/in/aldinosaputra",
