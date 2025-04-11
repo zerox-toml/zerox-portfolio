@@ -138,9 +138,9 @@ export const menus: MenuData[] = [
     id: 7,
     label: "Articles",
     Icon: MdComputer,
-    Component: GuestBook,
-  },
-]
+    Component: GuestBook,   
+  },    
+]  
 
 export const socialMedia: SocialMedia[] = [
   {
@@ -164,7 +164,7 @@ export const socialMedia: SocialMedia[] = [
     Icon: FaTelegram,
     label: "Telegram",
     logoColor: "black",
-    mediaUrl: "  https://t.me/zerox_toml",
+    mediaUrl: "  https://t.me/zerox_toml",  
     info: "I am open to work",
   },
 
