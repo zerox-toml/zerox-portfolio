@@ -138,9 +138,9 @@ export const menus: MenuData[] = [
     id: 7,
     label: "Articles",
     Icon: MdComputer,
-    Component: GuestBook,
-  },
-]
+    Component: GuestBook,   
+  },    
+]  
 
 export const socialMedia: SocialMedia[] = [
   {
