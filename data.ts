@@ -275,9 +275,9 @@ export const backslideimages: backSlideImages[] = [
     imgLocation: "/images/slide/polkadot.png"
   },
  
-]
+]  
 
-export const workExperience: WorkExperience[] = [
+export const workExperience: WorkExperience[] = [ 
 
   // Champion City Poker
   {
