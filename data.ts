@@ -263,6 +263,10 @@ export const backslideimages: backSlideImages[] = [
     imgLocation: "/images/slide/back3.png"
   },
   {
+    id: 7,
+    imgLocation: "/images/slide/uniswap.png"
+  },
+  {
     id: 6,
     imgLocation: "/images/slide/aptos.png"
   },
@@ -278,6 +282,78 @@ export const backslideimages: backSlideImages[] = [
 ]  
 
 export const workExperience: WorkExperience[] = [ 
+
+
+
+  // Ape-lol Pumpfun
+  {
+    id: 101,
+    title: "Ape-lol Pumpfun",
+    images: [
+      { url: "/images/projects/apelol.png" },
+    ],
+    workTabs: "Blockchain",
+    workContent: "Blockchain",
+    workGithub: "https://github.com/zerox-toml/pumpfun-solana",
+    workRealLink: "https://app.ape.lol/",
+    projectId: 1,
+    description: "Developed smart contract and integrated with frontend.",
+    stack: [
+      { stack: "Solana Web3" },
+      { stack: "Solana" },
+      { stack: "Anchor" },
+      { stack: "Next.js" },
+      { stack: "TypeScript" },
+    ],
+    keya: [
+      { keya: "Coin Creation" },
+      { keya: "Wallet Integration" },
+      { keya: "Leaderboard" },
+
+    ],
+    responsibility: "Blockchain & Full Stack Developer",
+    techview1: "Token Creation Platform: APE.LOL allows users to launch memecoins on the Solana blockchain for as little as $1, targeting fast and fair token launches without presales.",
+    techview2: "Bonding Curve Mechanics: Uses bonding curves for token pricing, where liquidity is automatically deployed to Raydium at a $42,000 market cap, ensuring a fair and automated liquidity process.",
+    techview3: "Simplified UX: Features a highly intuitive user interface designed for quick token creation and seamless trading experiences.",
+    issues: "Managing real-time bonding curve updates and dynamic price adjustments within the frontend interface while ensuring responsiveness across devices.",
+    solutions: "Solution: Implemented React hooks and WebSocket connections to sync live price data efficiently, reducing latency by 20%, and utilized optimized CSS frameworks to maintain UI performance on mobile and desktop.",
+  },
+
+  // HOG
+  {
+    id: 102,
+    title: "Hand of God",
+    images: [
+      { url: "/images/projects/hog1.png" },
+      { url: "/images/projects/hog2.png" },
+    ],
+    workTabs: "Blockchain",
+    workContent: "AI-Driven DeFi Protocol on Sonic Blockchain",
+    workGithub: "https://github.com/zerox-toml/HOG-DAO-System",
+    workRealLink: "https://www.handofgod.app/",
+    projectId: 1,
+    description: "Hand of God is a next-generation DeFi protocol built on the Sonic blockchain, featuring AI-driven automation and real-time on-chain analysis for dynamic supply management and ecosystem optimization.",
+    stack: [
+      { stack: "Sonic Blockchain" },
+      { stack: "Foundry" },
+      { stack: "Solidity" },
+      { stack: "Next.js" },
+      { stack: "TypeScript" },
+      { stack: "AI Integration" }
+    ],
+    keya: [
+      { keya: "AI-Governed Emissions" },
+      { keya: "Multi-Token System" },
+      { keya: "Automated Analysis" },
+      { keya: "Dynamic Management" }
+    ],
+    responsibility: "Blockchain Developer & AI Integration Specialist",
+    techview1: "AI-Driven Protocol Management: Implements an AI agent that conducts on-chain analysis every six hours to optimize emission rates, stabilize peg, and maximize protocol efficiency through real-time data analysis.",
+    techview2: "Multi-Token Architecture: Features a sophisticated three-token system ($HOG as peg token, $gHOG for governance, and $bHOG for stabilization) with automated supply management and liquidity incentives.",
+    techview3: "Transparent Decision System: All AI-generated decisions are publicly posted and tracked through the Scriptures, providing full transparency and detailed protocol statistics between epochs.",
+    issues: "Maintaining peg stability while implementing AI-driven decision-making systems and ensuring transparent, real-time data analysis across the protocol.",
+    solutions: "Developed an advanced AI agent for automated analysis and decision-making, implemented a three-token stabilization mechanism, and created a public tracking system for complete transparency of protocol operations.",
+  },
 
   // Champion City Poker
   {
@@ -315,7 +391,39 @@ export const workExperience: WorkExperience[] = [
     issues: "On-chain shuffl ing logic: Shuffl ing process should be on-chain, secure and fair.",
     solutions: "Used ZK-Snarks, asymmetric feature of Elgamal Encryption",
   },
-
+ // Treasure Aptos NFT Game
+ {
+  id: 102,
+  title: "Treasure Aptos NFT Game",
+  images: [
+    { url: "/images/projects/treasure1.png" },
+  ],
+  workTabs: "Blockchain",
+  workContent: "Aptos Network",
+  workGithub: "https://github.com/zerox-toml/Aptos-Clicker-Game-Contract",
+  workRealLink: "https://aptostreasurehunt.vercel.app/",
+  projectId: 1,
+  description: "You can deploy your applications on the blockchain using this app built with Decentralized CI/CD, ens, ipfs technologies",
+  stack: [
+    { stack: "Aptos" },
+    { stack: "Move" },
+    { stack: "Next.js" },
+    { stack: "P2E" },
+    { stack: "TypeScript" },
+  ],
+  keya: [
+    { keya: "Google Login" },
+    { keya: "Wallet integration" },
+    { keya: "Reward System" },
+    { keya: "Geolocation-Based GamePlay" },
+  ],
+  responsibility: "Web3 & Full Stack Developer",
+  techview1: "The game combines blockchain technology with real-world geolocation, allowing players to discover and claim treasures by physically visiting specific locations. This feature adds an engaging layer of interaction between the digital and physical world. ",
+  techview2: "Built on the Aptos blockchain, the game leverages smart contracts to ensure transparent, immutable, and secure treasure drops and claims, providing fairness and decentralized control. Scalable and Fast Transactions: By utilizing Aptos' high throughput and low latency infrastructure, the game supports large-scale user participation without compromising performance. ",
+  techview3: "The platform integrates Aptos wallets for smooth token transactions, enabling players to easily claim rewards and trade their assets with low transaction fees.",
+  issues: "In IPFS, files are stored in a distributed network, but they're not guaranteed to persist unless they are actively 'pinned' on one or more nodes. If no node is pinning the file, it may become unavailable over time..",
+  solutions: "Used third-party pinning services like Pinata to ensure that your dApp's files remain available. This service provide persistent storage by keeping your files pinned in their IPFS nodes. Players can receive and trade treasures as tokens, making the rewards system transparent and adaptable to various gameplay dynamics.",
+},
  
 
   // XANA
@@ -426,39 +534,6 @@ export const workExperience: WorkExperience[] = [
     solutions: "Leveraged React with WebSocket connections for efficient real-time updates and implemented dynamic component rendering to reduce unnecessary re-renders. Optimized state management with tools like Redux Toolkit, ensuring smooth user experience for high-traffic scenarios.",
   },
 
-  // Ape-lol Pumpfun
-  {
-    id: 101,
-    title: "Ape-lol Pumpfun",
-    images: [
-      { url: "/images/projects/apelol.png" },
-    ],
-    workTabs: "Blockchain",
-    workContent: "Blockchain",
-    workGithub: "https://github.com/zerox-toml/pumpfun-solana",
-    workRealLink: "https://app.ape.lol/",
-    projectId: 1,
-    description: "Developed smart contract and integrated with frontend.",
-    stack: [
-      { stack: "Solana Web3" },
-      { stack: "Solana" },
-      { stack: "Anchor" },
-      { stack: "Next.js" },
-      { stack: "TypeScript" },
-    ],
-    keya: [
-      { keya: "Coin Creation" },
-      { keya: "Wallet Integration" },
-      { keya: "Leaderboard" },
-
-    ],
-    responsibility: "Blockchain & Full Stack Developer",
-    techview1: "Token Creation Platform: APE.LOL allows users to launch memecoins on the Solana blockchain for as little as $1, targeting fast and fair token launches without presales.",
-    techview2: "Bonding Curve Mechanics: Uses bonding curves for token pricing, where liquidity is automatically deployed to Raydium at a $42,000 market cap, ensuring a fair and automated liquidity process.",
-    techview3: "Simplified UX: Features a highly intuitive user interface designed for quick token creation and seamless trading experiences.",
-    issues: "Managing real-time bonding curve updates and dynamic price adjustments within the frontend interface while ensuring responsiveness across devices.",
-    solutions: "Solution: Implemented React hooks and WebSocket connections to sync live price data efficiently, reducing latency by 20%, and utilized optimized CSS frameworks to maintain UI performance on mobile and desktop.",
-  },
 
   // Web hosting Dapp
   {
@@ -999,39 +1074,7 @@ export const workExperience: WorkExperience[] = [
 
   },
 
-  // Treasure Aptos NFT Game
-  {
-    id: 102,
-    title: "Treasure Aptos NFT Game",
-    images: [
-      { url: "/images/projects/treasure1.png" },
-    ],
-    workTabs: "Blockchain",
-    workContent: "Aptos Network",
-    workGithub: "https://github.com/zerox-toml/Aptos-Clicker-Game-Contract",
-    workRealLink: "https://aptostreasurehunt.vercel.app/",
-    projectId: 1,
-    description: "You can deploy your applications on the blockchain using this app built with Decentralized CI/CD, ens, ipfs technologies",
-    stack: [
-      { stack: "Aptos" },
-      { stack: "Move" },
-      { stack: "Next.js" },
-      { stack: "P2E" },
-      { stack: "TypeScript" },
-    ],
-    keya: [
-      { keya: "Google Login" },
-      { keya: "Wallet integration" },
-      { keya: "Reward System" },
-      { keya: "Geolocation-Based GamePlay" },
-    ],
-    responsibility: "Web3 & Full Stack Developer",
-    techview1: "The game combines blockchain technology with real-world geolocation, allowing players to discover and claim treasures by physically visiting specific locations. This feature adds an engaging layer of interaction between the digital and physical world. ",
-    techview2: "Built on the Aptos blockchain, the game leverages smart contracts to ensure transparent, immutable, and secure treasure drops and claims, providing fairness and decentralized control. Scalable and Fast Transactions: By utilizing Aptos' high throughput and low latency infrastructure, the game supports large-scale user participation without compromising performance. ",
-    techview3: "The platform integrates Aptos wallets for smooth token transactions, enabling players to easily claim rewards and trade their assets with low transaction fees.",
-    issues: "In IPFS, files are stored in a distributed network, but they're not guaranteed to persist unless they are actively 'pinned' on one or more nodes. If no node is pinning the file, it may become unavailable over time..",
-    solutions: "Used third-party pinning services like Pinata to ensure that your dApp's files remain available. This service provide persistent storage by keeping your files pinned in their IPFS nodes. Players can receive and trade treasures as tokens, making the rewards system transparent and adaptable to various gameplay dynamics.",
-  },
+ 
 
   // Lyeintl
   {
