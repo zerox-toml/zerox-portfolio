@@ -271,6 +271,8 @@ export const backslideimages: backSlideImages[] = [
 ]
 
 export const workExperience: WorkExperience[] = [
+
+  // Champion City Poker
   {
     id: 31,
     title: "Champion City Poker",
@@ -306,40 +308,10 @@ export const workExperience: WorkExperience[] = [
     issues: "On-chain shuffl ing logic: Shuffl ing process should be on-chain, secure and fair.",
     solutions: "Used ZK-Snarks, asymmetric feature of Elgamal Encryption",
   },
-  {
-    id: 32,
-    title: "EarnLumen",
-    images: [
-      { url: "/images/projects/earn1.png" },
-      { url: "/images/projects/earn2.png" }
-    ],
-    workTabs: "Blockchain",
-    workContent: "Financial Education Platform",
-    workGithub: "https://github.com/villadaniel750/uxstore",
-    workRealLink: "https://earnlumens.org/",
-    projectId: 4,
-    description: "EARNLUMENS is a collaborative financial education platform that provides you with all possible ways to earn XLM Lumens, as well as allowing you to earn income by sharing your financial expertise.",
-    stack: [
-      { stack: "Vue.js" },
-      { stack: "Rust" },
-      { stack: "Typescript" },
-      { stack: "Soroban Smart Contract" },
-      { stack: "Java" },
-    ],
-    keya: [
-      { keya: "Home" },
-      { keya: "Wallet Integration" },
-      { keya: "Ecosystem" },
-      { keya: "Favorites" },
-      { keya: "XLM" },
-    ],
-    responsibility: "Blockchain Developer & Web3 Frontend Developer",
-    techview1: "EarnLumen is a platform that allows users to earn Lumen by staking their Lumen tokens. The platform is built on the Stellar blockchain and uses the Soroban smart contract.",
-    techview2: "Educational Content Management: The platform features a robust content management system where financial experts can create, publish, and monetize educational content. Content creators earn XLM based on engagement metrics and quality assessments.",
-    techview3: "",
-    issues: "Scalability challenges with reward distribution and content verification on the Stellar network. Managing fair reward distribution while preventing spam content and ensuring high-quality educational materials.",
-    solutions: "Implemented a reputation-based scoring system and multi-layer content verification process. Utilized Soroban smart contracts for efficient reward distribution and developed a caching mechanism to optimize network interactions.",
-  },
+
+ 
+
+  // XANA
   {
     id: 7,
     title: "XANA ",
@@ -375,39 +347,9 @@ export const workExperience: WorkExperience[] = [
     issues: "Challenge: Ensuring seamless rendering and interaction of high-quality 3D assets across different devices, including mobile and VR, while maintaining performance and low latency.",
     solutions: "Leveraged frameworks like React Three.js and optimized rendering pipelines to reduce load times by 30%. Implemented real-time asset compression and caching strategies, ensuring consistent performance on low-bandwidth networks​.",
   },
-  // {
-  //   id: 107,
-  //   title: "BlueMove NFT Marketplace",
-  //   images: [
-  //     { url: "/images/projects/sui.png" },
-  //   ],
-  //   workTabs: "Blockchain",
-  //   workContent: "NFT Marketplace",
-  //   workGithub: "",
-  //   workRealLink: "https://sui.bluemove.net/",
-  //   projectId: 4,
-  //   description: "BlueMove is an NFT marketplace built on the Sui blockchain, enabling users to buy, sell, and mint NFTs with low fees and high throughput..",
-  //   stack: [
-  //     { stack: "Move" },
-  //     { stack: "SUI" },
-  //     { stack: "Aptos" },
-  //     { stack: "React" },
-  //     { stack: "" },
-  //     { stack: "Node.js" },
-  //   ],
-  //   keya: [
-  //     { keya: "Avatar Customization" },
-  //     { keya: "NFT Marketplace" },
-  //     { keya: "In-game Chat" },
-  //     { keya: "Launchpad" },
-  //   ],
-  //   responsibility: "Blockchain Developer & Cryptographer & Full Stack Developer",
-  //   techview1: "BlueMove leverages the high-performance Sui blockchain, which uses a DAG-based consensus mechanism to provide fast transaction finality and scalability. This ensures a seamless trading experience even during high network activity.",
-  //   techview2: "By utilizing Sui's Move language, BlueMove achieves secure and efficient execution of its NFT-related smart contracts, including those for minting, transfers, and auctions. Move's resource-centric model enhances security by preventing common vulnerabilities like reentrancy attacks.",
-  //   techview3: "BlueMove is designed to support multi-chain interactions, aiming to integrate other blockchains over time to expand its reach and enable interoperability for NFT creators and collectors.",
-  //   issues: "Limited Liquidity for Newly Minted NFTs: Newly launched NFTs on emerging platforms like Sui often struggle with liquidity, reducing their appeal to traders and collectors.",
-  //   solutions: "Introduce automated liquidity mechanisms, such as NFT liquidity pools, where users can stake tokens or NFTs to create instant buy/sell opportunities. Additionally, partner with popular NFT projects and integrate incentive programs, such as rewards for staking or participating in initial NFT offerings (INOs), to attract liquidity providers and boost market activity.",
-  // },
+  
+
+  // Frontier Registry
   {
     id: 81,
     title: "Frontier Registry",
@@ -417,7 +359,7 @@ export const workExperience: WorkExperience[] = [
     ],
     workTabs: "Blockchain",
     workContent: "IP NFT Marketplace",
-    workGithub: "https://github.com/FrontierRegistry",
+    workGithub: "https://github.com/zerox-toml/Frontier-Registry-Contract-Stellar",
     workRealLink: "https://www.youtube.com/watch?v=lAxw35kjUzI",
     projectId: 4,
     description: "Scientific research published and peer reviewed on-chain. Option to crowdsource funding by minting your research paper/IP as a NFT. Now I am focusing on AI integration with this dapp.",
@@ -442,6 +384,7 @@ export const workExperience: WorkExperience[] = [
     solutions: "Frontier Registry carry out this issue by using AI Search Engine, provide on-line guide service using LLM RAG Chatbot.",
   },
 
+  // Dex-Tool
   {
     id: 107,
     title: "Dex-Tool",
@@ -475,6 +418,8 @@ export const workExperience: WorkExperience[] = [
     issues: "Challenge: Ensuring smooth real-time data updates for multiple trading pairs and charts across chains without overloading the frontend.",
     solutions: "Leveraged React with WebSocket connections for efficient real-time updates and implemented dynamic component rendering to reduce unnecessary re-renders. Optimized state management with tools like Redux Toolkit, ensuring smooth user experience for high-traffic scenarios.",
   },
+
+  // Ape-lol Pumpfun
   {
     id: 101,
     title: "Ape-lol Pumpfun",
@@ -508,7 +453,7 @@ export const workExperience: WorkExperience[] = [
     solutions: "Solution: Implemented React hooks and WebSocket connections to sync live price data efficiently, reducing latency by 20%, and utilized optimized CSS frameworks to maintain UI performance on mobile and desktop.",
   },
 
-
+  // Web hosting Dapp
   {
     id: 77,
     title: "Web hosting Dapp",
@@ -542,6 +487,8 @@ export const workExperience: WorkExperience[] = [
     issues: "In IPFS, files are stored in a distributed network, but they're not guaranteed to persist unless they are actively 'pinned' on one or more nodes. If no node is pinning the file, it may become unavailable over time..",
     solutions: "Used third-party pinning services like Pinata to ensure that your dApp's files remain available. This service provide persistent storage by keeping your files pinned in their IPFS nodes",
   },
+
+  // Beowulf
   {
     id: 24,
     title: "Beowulf",
@@ -572,42 +519,10 @@ export const workExperience: WorkExperience[] = [
     techview3: "The Beowulf blockchain employs Delegated Proof-of-Stake and native dual coin structure to ensure transparency for all transactions in the system.",
     issues: "Interactions with Web3 (e.g., smart contract calls, fetching wallet balances, etc.) are asynchronous, which can cause issues with Vue's reactivity system and make it hard to maintain smooth user experience, loading states, and error handling.",
     solutions: "Use Promises/Await: Ensure all Web3 calls are properly handled using JavaScript async/await or Promises. Make sure to handle data reactivity in Vue correctly. Use Vue's data() or ref()/reactive() (in Vue 3 with Composition API) to bind asynchronous Web3 data and update the UI reactively when the data changes.",
-  },
+    },
 
-  // {
-  //   id: 43,
-  //   title: "SearchKwik",
-  //   images: [
-  //     {url:"/images/projects/searchkwik.png"},
-  //     {url:"/images/projects/searchkwik.png"}
-  //   ],
-  //   workTabs: "AI",
-  //   workContent: "Reinforcement Learning",
-  //   workGithub: "", 
-  //   workRealLink: "https://shoorah.io/",
-  //   projectId: 4,
-  //   description:"Shoorah is a dynamic wellbeing app dedicated to supporting mental health and nurturing overall wellbeing. This platform offers a wide range of wellness tools designed to help users take care of their mental and emotional health. This immersive experience is further enhanced by an innovative chatbot with emotional intelligence, fostering a deeper level of user engagement and interaction. Shoorah is a Shuru therapy tool, which lifts your mood, improves your sleep, feels more calm, boosts your energy, manages anxiety, reduces stress and creates more joyful moments in your life by collecting daily routines from a set of activities.",
-  //   stack:[
-  //     {stack: "Open AI"},
-  //     {stack: "Pinecone"},
-  //     {stack: "Python"},   
-  //     {stack:"MongoDB"},
-  //     {stack: "React"},
-  //     {stack:"Node"}, 
-  //   ],
-  //   keya:[
-  //     {keya: "Register IP as NFT"},
-  //     {keya: "Wallet Integration"},
-  //     {keya: "RAG Chatbot"},
-  //     {keya: "AI Search Engine"},      
-  //   ],
-  //   responsibility:"AI & Full Stack Developer",
-  //   techview1:"Frontier Registry provides simple UX/UI that does not require any prior knowledge or experience of blockchain.For researchers this lightens technology capacity building.",
-  //   techview2:"Users can certify their IP ownership with one simple click. Through automated certification their research artefact certification hash is immutably stored on the Stellar blockchain.",
-  //   techview3:"As AI is used more frequently for Scientific (STEM) research, data authentication aids researchers in establishing defensible foundations for their data artefact.",
-  //   issues:"In the age of AI augmented scientific research, data provenance is increasingly a potential unknown. Leaving these building block elements vulnerable to compromise during the scientific research process could render questionable the accuracy of scientific outputs.",
-  //   solutions:"Frontier Registry carry out this issue by using AI Search Engine, provide on-line guide service using LLM RAG Chatbot.",
-  // },
+
+  // Sportsbox AI
   {
     id: 41,
     title: "Sportsbox AI",
@@ -641,6 +556,8 @@ export const workExperience: WorkExperience[] = [
     issues: "Developing highly accurate markerless 3D motion capture technology from single-camera video inputs. Traditional motion capture systems rely on multi-camera setups or markers, which are expensive and cumbersome. Creating a solution that uses only a mobile phone required overcoming significant technical hurdles in computer vision, such as detecting fine-grained body movements and maintaining accuracy across diverse lighting conditions and user environments..",
     solutions: "Leveraged cutting-edge deep learning models and computer vision algorithms to track and analyze over 30 key points on the body, ensuring precise detection of joints and body segments without physical markers​.​",
   },
+
+  // Wonder Chatbot
   {
     id: 51,
     title: "Wonder Chatbot",
@@ -672,100 +589,9 @@ export const workExperience: WorkExperience[] = [
     issues: "Ensuring seamless real-time synchronization of chatbot responses across various e-commerce platforms and optimizing performance for high traffic volumes.",
     solutions: "Leveraged React.js with WebSocket connections to manage real-time data flow, ensuring low-latency interactions. Used dynamic rendering techniques to optimize performance across multiple platforms while maintaining consistent user experiences.",
   },
-  // {
-  //   id: 52,
-  //   title: "eSynapse",
-  //   images: [
-  //     {url:"/images/projects/synapse.png"},
-  //     {url:"/images/projects/synapse2.png"}
-  //   ],
-  //   workTabs: "AI",
-  //   workContent: "Document Analysis",
-  //   workGithub: "", 
-  //   workRealLink: "https://www.esynapse.ai",
-  //   projectId: 4,
-  //   description:"A revolutionary tool that uses advanced conversational and generative AI technology to simplify data handling. It transforms complex data interactions into simple conversations, making strategic decision-making fast and straightforward by providing quick, actionable insights without the need for complicated processes or BI/Analytical tools.",
-  //   stack:[
-  //     {stack: "React"},
-  //     {stack: "Open AI"},
-  //     {stack: "Python"},   
-  //     {stack: "Generative AI"},
-  //     {stack: "Advanced conversational technology"}, 
-  //   ],
 
-  //   responsibility:"Blockchain & AI & Full Stack Developer",
-  //   techview1:"Frontier Registry provides simple UX/UI that does not require any prior knowledge or experience of blockchain.For researchers this lightens technology capacity building.",
-  //   techview2:"Users can certify their IP ownership with one simple click. Through automated certification their research artefact certification hash is immutably stored on the Stellar blockchain.",
-  //   techview3:"As AI is used more frequently for Scientific (STEM) research, data authentication aids researchers in establishing defensible foundations for their data artefact.",
-  //   issues:"In the age of AI augmented scientific research, data provenance is increasingly a potential unknown. Leaving these building block elements vulnerable to compromise during the scientific research process could render questionable the accuracy of scientific outputs.",
-  //   solutions:"Frontier Registry carry out this issue by using AI Search Engine, provide on-line guide service using LLM RAG Chatbot.",
-  // },
-  // {
-  //   id: 53,
-  //   title: "Hurone",
-  //   images: [
-  //     {url:"/images/projects/hurone.png"},
-  //     {url:"/images/projects/hurone2.png"}
-  //   ],
-  //   workTabs: "AI",
-  //   workContent: "Medical AI infrastructure",
-  //   workGithub: "", 
-  //   workRealLink: "https://hurone.ai/",
-  //   projectId: 4,
-  //   description:"we built the AI infrastructure behind Hurone.ai, which helps oncologists diagnose and treat cancer patients in need of personalized healthcare. This startup just raised $3 million based on the MVP we built. Like Hurone.ai, we can help you create sophisticated AI-driven object detection models tailored to your specific needs.",
-  //   stack:[
-  //     {stack: "React"},
-  //     {stack: "Open AI"},
-  //     {stack: "Python"},   
-  //     {stack: "Langchain"},
-  //     {stack: "LLM"}, 
-  //   ],
-  //   keya:[
-  //     {keya: "Register IP as NFT"},
-  //     {keya: "Wallet Integration"},
-  //     {keya: "RAG Chatbot"},
-  //     {keya: "AI Search Engine"},      
-  //   ],
-  //   responsibility:"Blockchain & AI & Full Stack Developer",
-  //   techview1:"Frontier Registry provides simple UX/UI that does not require any prior knowledge or experience of blockchain.For researchers this lightens technology capacity building.",
-  //   techview2:"Users can certify their IP ownership with one simple click. Through automated certification their research artefact certification hash is immutably stored on the Stellar blockchain.",
-  //   techview3:"As AI is used more frequently for Scientific (STEM) research, data authentication aids researchers in establishing defensible foundations for their data artefact.",
-  //   issues:"In the age of AI augmented scientific research, data provenance is increasingly a potential unknown. Leaving these building block elements vulnerable to compromise during the scientific research process could render questionable the accuracy of scientific outputs.",
-  //   solutions:"Frontier Registry carry out this issue by using AI Search Engine, provide on-line guide service using LLM RAG Chatbot.",
-  // },
-  // {
-  //   id: 54,
-  //   title: "VerboBot",
-  //   images: [
-  //     {url:"/images/projects/verbo.png"},
-  //     {url:"/images/projects/verbo2.png"}
-  //   ],
-  //   workTabs: "AI",
-  //   workContent: "Chatbot",
-  //   workGithub: "", 
-  //   workRealLink: "https://verbo.bot",
-  //   projectId: 4,
-  //   description:"An AI-driven virtual agent capable of conducting human-like phone conversations ranging from 1 to 30 minutes. With unlimited memory and perfect recall, Verbo handles tasks like sales calls and customer support around the clock, requiring no training, management, or motivation. ",
-  //   stack:[
-  //     {stack: "React"},
-  //     {stack: "Open AI"},
-  //     {stack: "Python"},   
-  //     {stack:"Generative AI"},
-  //     {stack:"advanced conversational technology"}, 
-  //   ],
-  //   keya:[
-  //     {keya: "Register IP as NFT"},
-  //     {keya: "Wallet Integration"},
-  //     {keya: "RAG Chatbot"},
-  //     {keya: "AI Search Engine"},      
-  //   ],
-  //   responsibility:"Blockchain & AI & Full Stack Developer",
-  //   techview1:"Frontier Registry provides simple UX/UI that does not require any prior knowledge or experience of blockchain.For researchers this lightens technology capacity building.",
-  //   techview2:"Users can certify their IP ownership with one simple click. Through automated certification their research artefact certification hash is immutably stored on the Stellar blockchain.",
-  //   techview3:"As AI is used more frequently for Scientific (STEM) research, data authentication aids researchers in establishing defensible foundations for their data artefact.",
-  //   issues:"In the age of AI augmented scientific research, data provenance is increasingly a potential unknown. Leaving these building block elements vulnerable to compromise during the scientific research process could render questionable the accuracy of scientific outputs.",
-  //   solutions:"Frontier Registry carry out this issue by using AI Search Engine, provide on-line guide service using LLM RAG Chatbot.",
-  // },
+
+  // RAG Chatbot
   {
     id: 55,
     title: "RAGChatbot",
@@ -832,72 +658,9 @@ export const workExperience: WorkExperience[] = [
     issues: "Interact with Puffer Smart Contract.",
     solutions: "Used Puffer-SDK to seamlessly interact with puffer smart contracts",
   },
-  // {
-  //   id: 3,
-  //   title: "UXD Protocol",
-  //   images: [
-  //     {url:"/images/projects/uxd-protocol.png"},
-  //     {url:"/images/projects/uxd-protocol2.png"}
-  //   ],
-  //   workTabs: "Solana",
-  //   workContent: "Defi Platform",
-  //   workGithub: "https://github.com/spectrecoder/UXD-protocol",
-  //   workRealLink: "https://uxd.fi/",
-  //   projectId: 4,
-  //   description:"UXD is backed by various low volatility strategies that generate yield. The function of the protocol is to manage the asset and liability side to ensure that there is no mismatch. Examples of low volatility strategies are delta-neutral position, overcollateralized crypto backed loans, liquid and semi-liquid lending, etc.",
-  //   stack:[
-  //     {stack: "Web3.js"},
-  //     {stack: "React"},
-  //     {stack: "Anchor"},
-  //     {stack: "Rust"},
-  //     {stack: "Typescript"},
-  //   ],
-  //   keya:[
-  //     {keya: "Register IP as NFT"},
-  //     {keya: "Wallet Integration"},
-  //     {keya: "RAG Chatbot"},
-  //     {keya: "AI Search Engine"},      
-  //   ],
-  //   responsibility:"Blockchain & AI & Full Stack Developer",
-  //   techview1:"Frontier Registry provides simple UX/UI that does not require any prior knowledge or experience of blockchain.For researchers this lightens technology capacity building.",
-  //   techview2:"Users can certify their IP ownership with one simple click. Through automated certification their research artefact certification hash is immutably stored on the Stellar blockchain.",
-  //   techview3:"As AI is used more frequently for Scientific (STEM) research, data authentication aids researchers in establishing defensible foundations for their data artefact.",
-  //   issues:"In the age of AI augmented scientific research, data provenance is increasingly a potential unknown. Leaving these building block elements vulnerable to compromise during the scientific research process could render questionable the accuracy of scientific outputs.",
-  //   solutions:"Frontier Registry carry out this issue by using AI Search Engine, provide on-line guide service using LLM RAG Chatbot.",
-  // },
+ 
 
-  // {
-  //   id: 4,
-  //   title: "Gari Network",
-  //   images: [
-  //     {url:"/images/projects/gari.png"},
-  //     {url:"/images/projects/gari2.png"}
-  //   ],
-  //   workTabs: "APP Development",
-  //   workContent: "",
-  //   workGithub: "https://github.com/spectrecoder/gari-wallet",
-  //   workRealLink: "https://gari.network/",
-  //   projectId: 4,
-  //   description:"WORLD'S LARGEST WEB3 AUDIO AND VIDEO LIVE STREAMING PLATFORM",
-  //   stack:[
-  //     {stack: "Kotlin"},
-  //     {stack: "React"},
-  //     {stack: "Open Graph"},
-  //     {stack: "HSTS"},
-  //   ],
-  //   keya:[
-  //     {keya: "Register IP as NFT"},
-  //     {keya: "Wallet Integration"},
-  //     {keya: "RAG Chatbot"},
-  //     {keya: "AI Search Engine"},      
-  //   ],
-  //   responsibility:"Blockchain & AI & Full Stack Developer",
-  //   techview1:"Frontier Registry provides simple UX/UI that does not require any prior knowledge or experience of blockchain.For researchers this lightens technology capacity building.",
-  //   techview2:"Users can certify their IP ownership with one simple click. Through automated certification their research artefact certification hash is immutably stored on the Stellar blockchain.",
-  //   techview3:"As AI is used more frequently for Scientific (STEM) research, data authentication aids researchers in establishing defensible foundations for their data artefact.",
-  //   issues:"In the age of AI augmented scientific research, data provenance is increasingly a potential unknown. Leaving these building block elements vulnerable to compromise during the scientific research process could render questionable the accuracy of scientific outputs.",
-  //   solutions:"Frontier Registry carry out this issue by using AI Search Engine, provide on-line guide service using LLM RAG Chatbot.",
-  // },
+  // Roadninja
   {
     id: 9,
     title: "Roadninja",
@@ -932,6 +695,8 @@ export const workExperience: WorkExperience[] = [
     solutions: "Built with responsive design principles using CSS media queries and styled components in React. Conducted cross-browser testing to detect and fix compatibility issues, ensuring seamless performance across devices.",
 
   },
+
+  // Stronghold
   {
     id: 5,
     title: "Stronghold",
@@ -964,6 +729,8 @@ export const workExperience: WorkExperience[] = [
     issues: "Frontend and Smart Contract Synchronization:Delays in transaction confirmation or network congestion could lead to frontend desynchronization, causing a lag in displayed information.",
     solutions: "Integrated a real-time polling mechanism to refresh transaction status, and used event listeners for smart contracts to update the frontend upon state changes, ensuring that users received accurate, up-to-date information without noticeable lag.",
   },
+
+  // IDEX
   {
     id: 6,
     title: "IDEX",
@@ -996,6 +763,7 @@ export const workExperience: WorkExperience[] = [
     solutions: "Integrate multiple decentralized oracles like Chainlink and Band Protocol, with aggregation and fallback mechanisms, to ensure more accurate, real-time price feeds and minimize discrepancies during high volatility.",
   },
 
+  // TrueRev
   {
     id: 35,
     title: "TrueRev",
@@ -1029,6 +797,7 @@ export const workExperience: WorkExperience[] = [
   },
 
 
+  // RealEstate
   {
     id: 11,
     title: "RealEstate",
@@ -1051,7 +820,9 @@ export const workExperience: WorkExperience[] = [
     ],
 
     responsibility: "Full Stack Developer",
-  },
+  },  
+
+  // Emarque
   {
     id: 111,
     title: "Emarque",
@@ -1084,6 +855,8 @@ export const workExperience: WorkExperience[] = [
     issues: "Managing the complexities of offering a wide range of customizable product options within Shopify's standard limitations.",
     solutions: "Emarque overcomes this by integrating YMQ Product Options, which allows the addition of unlimited product variants and customization options, enhancing the user experience without overcomplicating backend operations.",
   },
+
+  // Carnival Fair
   {
     id: 112,
     title: "Carnival Fair",
@@ -1116,6 +889,8 @@ export const workExperience: WorkExperience[] = [
     issues: "Managing a wide variety of event offerings and ensuring availability and seamless booking during peak seasons.",
     solutions: "The Carnival Fair mitigates this by implementing advanced scheduling systems and real-time inventory management.",
   },
+
+  // Medusa Eats App
   {
     id: 113,
     title: "Medusa Eats App",
@@ -1148,6 +923,8 @@ export const workExperience: WorkExperience[] = [
     issues: "Managing a wide variety of event offerings and ensuring availability and seamless booking during peak seasons.",
     solutions: "The Carnival Fair mitigates this by implementing advanced scheduling systems and real-time inventory management.",
   },
+
+  // Medusa Mobile App
   {
     id: 114,
     title: "Medusa Mobile App",
@@ -1181,6 +958,8 @@ export const workExperience: WorkExperience[] = [
     issues: "",
     solutions: "",
   },
+
+  // Medical Reservation System
   {
     id: 37,
     title: "Medical Reservation System",
@@ -1212,6 +991,8 @@ export const workExperience: WorkExperience[] = [
     solutions: "Use Redux slices and modularize the state by feature to keep the store manageable. Implement selectors and memoization to optimize performance and prevent unnecessary re-renders. Redux DevTools can also help with debugging state changes more efficiently.",
 
   },
+
+  // Treasure Aptos NFT Game
   {
     id: 102,
     title: "Treasure Aptos NFT Game",
@@ -1219,8 +1000,8 @@ export const workExperience: WorkExperience[] = [
       { url: "/images/projects/treasure1.png" },
     ],
     workTabs: "Blockchain",
-    workContent: "Freelance",
-    workGithub: "https://zerox-toml",
+    workContent: "Aptos Network",
+    workGithub: "https://github.com/zerox-toml/Aptos-Clicker-Game-Contract",
     workRealLink: "https://aptostreasurehunt.vercel.app/",
     projectId: 1,
     description: "You can deploy your applications on the blockchain using this app built with Decentralized CI/CD, ens, ipfs technologies",
@@ -1244,6 +1025,8 @@ export const workExperience: WorkExperience[] = [
     issues: "In IPFS, files are stored in a distributed network, but they're not guaranteed to persist unless they are actively 'pinned' on one or more nodes. If no node is pinning the file, it may become unavailable over time..",
     solutions: "Used third-party pinning services like Pinata to ensure that your dApp's files remain available. This service provide persistent storage by keeping your files pinned in their IPFS nodes. Players can receive and trade treasures as tokens, making the rewards system transparent and adaptable to various gameplay dynamics.",
   },
+
+  // Lyeintl
   {
     id: 33,
     title: "Lyeintl",
