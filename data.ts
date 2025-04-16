@@ -252,22 +252,29 @@ export const backslideimages: backSlideImages[] = [
     id: 1,
     imgLocation: "/images/slide/back1.png"
   },
+  
   {
     id: 2,
-    imgLocation: "/images/slide/back2.png"
+    imgLocation: "/images/slide/solana.png"
   },
-  {
-    id: 2,
-    imgLocation: "/images/slide/back4.png"
-  },
+ 
   {
     id: 3,
     imgLocation: "/images/slide/back3.png"
   },
   {
-    id: 4,
-    imgLocation: "/images/slide/white.jpg"
+    id: 3,
+    imgLocation: "/images/slide/aptos.png"
   },
+  {
+    id: 4,
+    imgLocation: "/images/slide/back5.png"
+  },
+  {
+    id: 5,
+    imgLocation: "/images/slide/polkadot.png"
+  },
+ 
 ]
 
 export const workExperience: WorkExperience[] = [
@@ -354,7 +361,7 @@ export const workExperience: WorkExperience[] = [
     id: 81,
     title: "Frontier Registry",
     images: [
-      { url: "/images/projects/frontier1.png" },
+      { url: "/images/projects/frontier1.png" }, 
       { url: "/images/projects/frontier2.png" }
     ],
     workTabs: "Blockchain",
