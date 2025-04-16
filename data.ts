@@ -263,21 +263,21 @@ export const backslideimages: backSlideImages[] = [
     imgLocation: "/images/slide/back3.png"
   },
   {
-    id: 3,
+    id: 6,
     imgLocation: "/images/slide/aptos.png"
   },
   {
     id: 4,
-    imgLocation: "/images/slide/back5.png"
+    imgLocation: "/images/slide/stellar.png"
   },
   {
     id: 5,
     imgLocation: "/images/slide/polkadot.png"
   },
  
-]
+]  
 
-export const workExperience: WorkExperience[] = [
+export const workExperience: WorkExperience[] = [ 
 
   // Champion City Poker
   {
@@ -361,7 +361,7 @@ export const workExperience: WorkExperience[] = [
     id: 81,
     title: "Frontier Registry",
     images: [
-      { url: "/images/projects/frontier1.png" }, 
+      { url: "/images/projects/frontier1.png" },
       { url: "/images/projects/frontier2.png" }
     ],
     workTabs: "Blockchain",
@@ -526,7 +526,7 @@ export const workExperience: WorkExperience[] = [
     techview3: "The Beowulf blockchain employs Delegated Proof-of-Stake and native dual coin structure to ensure transparency for all transactions in the system.",
     issues: "Interactions with Web3 (e.g., smart contract calls, fetching wallet balances, etc.) are asynchronous, which can cause issues with Vue's reactivity system and make it hard to maintain smooth user experience, loading states, and error handling.",
     solutions: "Use Promises/Await: Ensure all Web3 calls are properly handled using JavaScript async/await or Promises. Make sure to handle data reactivity in Vue correctly. Use Vue's data() or ref()/reactive() (in Vue 3 with Composition API) to bind asynchronous Web3 data and update the UI reactively when the data changes.",
-    },
+  },
 
 
   // Sportsbox AI
@@ -827,7 +827,7 @@ export const workExperience: WorkExperience[] = [
     ],
 
     responsibility: "Full Stack Developer",
-  },  
+  },
 
   // Emarque
   {
