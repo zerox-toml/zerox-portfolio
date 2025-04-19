@@ -7,8 +7,8 @@ export default function AboutMe() {
       <article className="prose max-w-none prose-h2:mb-2.5 prose-h2:text-[2rem] prose-p:text-3xl prose-p:leading-[1.65]">
         <p className="text-gray-300">
           Hi friends,
-          I use Python to build fast, and Rust to build safe — so my code runs smooth and I sleep better at night. <br/>
-          Been working on Ethereum, Solana, Aptos, SUI, Stellar, and other blockchains - Network & Blockchain Engineer.
+          I build with intention—combining the power of AI and blockchain to design solutions that are as smart as they are meaningful. <br/>
+          I believe in writing code that not only works, but speaks to clarity, creativity, and future potential.
         </p>
       </article>
 
