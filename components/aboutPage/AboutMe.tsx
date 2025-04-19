@@ -10,7 +10,7 @@ export default function AboutMe() {
           I build with intention—combining the power of AI and blockchain to design solutions that are as smart as they are meaningful. <br/>
           I believe in writing code that not only works, but speaks to clarity, creativity, and future potential.
         </p>
-      </article>
+      </article> 
 
       <ul className="grid grid-cols-1 mt-16 location sm:grid-cols-2 gap-y-2 ">
         <MyInfo field="Time Zone" value="Any timezone" />
