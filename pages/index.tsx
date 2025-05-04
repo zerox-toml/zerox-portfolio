@@ -44,7 +44,7 @@ const Home: NextPage<Props> = ({ profileData }) => {
     <main className="relative flex items-center justify-center min-h-screen home">
       <Head>
         <title>Aldino Saputra</title>
-        <meta name="description" content="SpectreCoder-Aldino" />
+        <meta name="description" content="Passionate Engineer" />
         <link rel="icon" href="/favicon.ico" className="rounded-full" />
       </Head>
 
