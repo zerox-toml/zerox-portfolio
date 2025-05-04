@@ -47,11 +47,8 @@ export default function ResumeItem({ resume, border }: Props) {
         {resume.subTitle}
       </p>
 
-      {/* Map through each sentence of the description and display each in its own paragraph */}
-      <div className="text-gray-500 text-2xl capitalize tracking-wide mt-5 leading-relaxed">
-        {sentences.map((sentence, index) => (
-          <p key={index}>{sentence.trim()}.</p>
-        ))}
+      <div className="text-gray-500 text-2xl capitalize tracking-wide mt-5 leading-relaxed whitespace-pre-line">
+        {resume.desc}
       </div>
     </div>
   )
