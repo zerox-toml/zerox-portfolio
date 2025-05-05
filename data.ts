@@ -53,7 +53,7 @@ export const socialMedias: SocialMedia[] = [
     Icon: FaTwitter,
     label: "Twitter",
     logoColor: "#171515",
-    mediaUrl: "https://x.com/MentholMen47387",
+    mediaUrl: "https://x.com/SilkenCore59010",
     info: "Follow my X.",
   },
   {
@@ -138,9 +138,9 @@ export const menus: MenuData[] = [
     id: 7,
     label: "Articles",
     Icon: MdComputer,
-    Component: GuestBook,   
-  },    
-]  
+    Component: GuestBook,
+  },
+]
 
 export const socialMedia: SocialMedia[] = [
   {
@@ -148,12 +148,12 @@ export const socialMedia: SocialMedia[] = [
     Icon: FaTwitter,
     label: "Twitter",
     logoColor: "#5865f2",
-    mediaUrl: "https://x.com/MentholMen47387",
+    mediaUrl: "https://x.com/SilkenCore59010",
     info: "Follow my X.",
   },
   {
     id: 11,
-    Icon: FaLinkedin,  
+    Icon: FaLinkedin,
     label: "Linkedin",
     logoColor: "#5865f2",
     mediaUrl: "https://linkedin.com/in/aldinosaputra",
@@ -164,7 +164,7 @@ export const socialMedia: SocialMedia[] = [
     Icon: FaTelegram,
     label: "Telegram",
     logoColor: "black",
-    mediaUrl: "  https://t.me/zerox_toml",  
+    mediaUrl: "  https://t.me/zerox_toml",
     info: "I am open to work",
   },
 
@@ -252,12 +252,12 @@ export const backslideimages: backSlideImages[] = [
     id: 1,
     imgLocation: "/images/slide/back1.png"
   },
-  
+
   {
     id: 2,
     imgLocation: "/images/slide/solana.png"
   },
- 
+
   {
     id: 3,
     imgLocation: "/images/slide/back3.png"
@@ -278,10 +278,10 @@ export const backslideimages: backSlideImages[] = [
     id: 5,
     imgLocation: "/images/slide/polkadot.png"
   },
- 
-]  
 
-export const workExperience: WorkExperience[] = [ 
+]
+
+export const workExperience: WorkExperience[] = [
 
 
 
@@ -391,40 +391,40 @@ export const workExperience: WorkExperience[] = [
     issues: "On-chain shuffl ing logic: Shuffl ing process should be on-chain, secure and fair.",
     solutions: "Used ZK-Snarks, asymmetric feature of Elgamal Encryption",
   },
- // Treasure Aptos NFT Game
- {
-  id: 102,
-  title: "Treasure Aptos NFT Game",
-  images: [
-    { url: "/images/projects/treasure1.png" },
-  ],
-  workTabs: "Blockchain",
-  workContent: "Aptos Network",
-  workGithub: "https://github.com/zerox-toml/Aptos-Clicker-Game-Contract",
-  workRealLink: "https://aptostreasurehunt.vercel.app/",
-  projectId: 1,
-  description: "You can deploy your applications on the blockchain using this app built with Decentralized CI/CD, ens, ipfs technologies",
-  stack: [
-    { stack: "Aptos" },
-    { stack: "Move" },
-    { stack: "Next.js" },
-    { stack: "P2E" },
-    { stack: "TypeScript" },
-  ],
-  keya: [
-    { keya: "Google Login" },
-    { keya: "Wallet integration" },
-    { keya: "Reward System" },
-    { keya: "Geolocation-Based GamePlay" },
-  ],
-  responsibility: "Web3 & Full Stack Developer",
-  techview1: "The game combines blockchain technology with real-world geolocation, allowing players to discover and claim treasures by physically visiting specific locations. This feature adds an engaging layer of interaction between the digital and physical world. ",
-  techview2: "Built on the Aptos blockchain, the game leverages smart contracts to ensure transparent, immutable, and secure treasure drops and claims, providing fairness and decentralized control. Scalable and Fast Transactions: By utilizing Aptos' high throughput and low latency infrastructure, the game supports large-scale user participation without compromising performance. ",
-  techview3: "The platform integrates Aptos wallets for smooth token transactions, enabling players to easily claim rewards and trade their assets with low transaction fees.",
-  issues: "In IPFS, files are stored in a distributed network, but they're not guaranteed to persist unless they are actively 'pinned' on one or more nodes. If no node is pinning the file, it may become unavailable over time..",
-  solutions: "Used third-party pinning services like Pinata to ensure that your dApp's files remain available. This service provide persistent storage by keeping your files pinned in their IPFS nodes. Players can receive and trade treasures as tokens, making the rewards system transparent and adaptable to various gameplay dynamics.",
-},
- 
+  // Treasure Aptos NFT Game
+  {
+    id: 102,
+    title: "Treasure Aptos Tokenized Game",
+    images: [
+      { url: "/images/projects/treasure1.png" },
+    ],
+    workTabs: "Blockchain",
+    workContent: "Aptos Network",
+    workGithub: "https://github.com/zerox-toml/Aptos-Clicker-Game-Contract",
+    workRealLink: "https://aptostreasurehunt.vercel.app/",
+    projectId: 1,
+    description: "You can deploy your applications on the blockchain using this app built with Decentralized CI/CD, ens, ipfs technologies",
+    stack: [
+      { stack: "Aptos" },
+      { stack: "Move" },
+      { stack: "Next.js" },
+      { stack: "P2E" },
+      { stack: "TypeScript" },
+    ],
+    keya: [
+      { keya: "Google Login" },
+      { keya: "Wallet integration" },
+      { keya: "Reward System" },
+      { keya: "Geolocation-Based GamePlay" },
+    ],
+    responsibility: "Web3 & Full Stack Developer",
+    techview1: "The game combines blockchain technology with real-world geolocation, allowing players to discover and claim treasures by physically visiting specific locations. This feature adds an engaging layer of interaction between the digital and physical world. ",
+    techview2: "Built on the Aptos blockchain, the game leverages smart contracts to ensure transparent, immutable, and secure treasure drops and claims, providing fairness and decentralized control. Scalable and Fast Transactions: By utilizing Aptos' high throughput and low latency infrastructure, the game supports large-scale user participation without compromising performance. ",
+    techview3: "The platform integrates Aptos wallets for smooth token transactions, enabling players to easily claim rewards and trade their assets with low transaction fees.",
+    issues: "In IPFS, files are stored in a distributed network, but they're not guaranteed to persist unless they are actively 'pinned' on one or more nodes. If no node is pinning the file, it may become unavailable over time..",
+    solutions: "Used third-party pinning services like Pinata to ensure that your dApp's files remain available. This service provide persistent storage by keeping your files pinned in their IPFS nodes. Players can receive and trade treasures as tokens, making the rewards system transparent and adaptable to various gameplay dynamics.",
+  },
+
 
   // XANA
   {
@@ -462,7 +462,7 @@ export const workExperience: WorkExperience[] = [
     issues: "Challenge: Ensuring seamless rendering and interaction of high-quality 3D assets across different devices, including mobile and VR, while maintaining performance and low latency.",
     solutions: "Leveraged frameworks like React Three.js and optimized rendering pipelines to reduce load times by 30%. Implemented real-time asset compression and caching strategies, ensuring consistent performance on low-bandwidth networks​.",
   },
-  
+
 
   // Frontier Registry
   {
@@ -538,37 +538,37 @@ export const workExperience: WorkExperience[] = [
   },
 
   // Beowulf
-  {
-    id: 24,
-    title: "Beowulf",
-    images: [
-      { url: "/images/projects/beowulf1.png" },
-      { url: "/images/projects/beowulf2.png" }
-    ],
-    workTabs: "Blockchain",
-    workContent: "",
-    workGithub: "",
-    workRealLink: "https://beowulfchain.com",
-    projectId: 1,
-    description: "The Beowulf's architecture provides a Decentralized Communication and Data Network by utilizing computing resources globally to form a supercomputer network. Combining with blockchain for a payment system, Beowulf brings in transparency for all users and miners of the network.",
-    stack: [
-      { stack: "Vue3" },
-      { stack: "Componsition API" },
-      { stack: "Web3.js" },
-      { stack: "TypeScript" },
-    ],
-    keya: [
-      { keya: "game-changing tools" },
-      { keya: "Wallet Integration" },
-      { keya: "The world-class network" },
-    ],
-    responsibility: "Web3 Frontend Developer",
-    techview1: "Beowulf turns computing resources worldwide into a global cloud computing network more powerful than a supercomputer to serve as communication services.",
-    techview2: "The payment for miners and expenses paid by users/businesses are made with real fiat via the W native coin.",
-    techview3: "The Beowulf blockchain employs Delegated Proof-of-Stake and native dual coin structure to ensure transparency for all transactions in the system.",
-    issues: "Interactions with Web3 (e.g., smart contract calls, fetching wallet balances, etc.) are asynchronous, which can cause issues with Vue's reactivity system and make it hard to maintain smooth user experience, loading states, and error handling.",
-    solutions: "Use Promises/Await: Ensure all Web3 calls are properly handled using JavaScript async/await or Promises. Make sure to handle data reactivity in Vue correctly. Use Vue's data() or ref()/reactive() (in Vue 3 with Composition API) to bind asynchronous Web3 data and update the UI reactively when the data changes.",
-  },
+  // {
+  //   id: 24,
+  //   title: "Beowulf",
+  //   images: [
+  //     { url: "/images/projects/beowulf1.png" },
+  //     { url: "/images/projects/beowulf2.png" }
+  //   ],
+  //   workTabs: "Blockchain",
+  //   workContent: "",
+  //   workGithub: "",
+  //   workRealLink: "https://beowulfchain.com",
+  //   projectId: 1,
+  //   description: "The Beowulf's architecture provides a Decentralized Communication and Data Network by utilizing computing resources globally to form a supercomputer network. Combining with blockchain for a payment system, Beowulf brings in transparency for all users and miners of the network.",
+  //   stack: [
+  //     { stack: "Vue3" },
+  //     { stack: "Componsition API" },
+  //     { stack: "Web3.js" },
+  //     { stack: "TypeScript" },
+  //   ],
+  //   keya: [
+  //     { keya: "game-changing tools" },
+  //     { keya: "Wallet Integration" },
+  //     { keya: "The world-class network" },
+  //   ],
+  //   responsibility: "Web3 Frontend Developer",
+  //   techview1: "Beowulf turns computing resources worldwide into a global cloud computing network more powerful than a supercomputer to serve as communication services.",
+  //   techview2: "The payment for miners and expenses paid by users/businesses are made with real fiat via the W native coin.",
+  //   techview3: "The Beowulf blockchain employs Delegated Proof-of-Stake and native dual coin structure to ensure transparency for all transactions in the system.",
+  //   issues: "Interactions with Web3 (e.g., smart contract calls, fetching wallet balances, etc.) are asynchronous, which can cause issues with Vue's reactivity system and make it hard to maintain smooth user experience, loading states, and error handling.",
+  //   solutions: "Use Promises/Await: Ensure all Web3 calls are properly handled using JavaScript async/await or Promises. Make sure to handle data reactivity in Vue correctly. Use Vue's data() or ref()/reactive() (in Vue 3 with Composition API) to bind asynchronous Web3 data and update the UI reactively when the data changes.",
+  // },
 
 
   // Sportsbox AI
@@ -707,7 +707,7 @@ export const workExperience: WorkExperience[] = [
     issues: "Interact with Puffer Smart Contract.",
     solutions: "Used Puffer-SDK to seamlessly interact with puffer smart contracts",
   },
- 
+
 
   // Roadninja
   {
@@ -746,38 +746,38 @@ export const workExperience: WorkExperience[] = [
   },
 
   // Stronghold
-  {
-    id: 5,
-    title: "Stronghold",
-    images: [
-      { url: "/images/projects/stronghold.png" },
-      { url: "/images/projects/stronghold2.png" }
-    ],
-    workTabs: "Blockchain",
-    workContent: "Open-source projects",
-    workGithub: "",
-    workRealLink: "https://stronghold.co/shx",
-    projectId: 2,
-    description: "Stronghold's expanding payments ecosystem uses the SHx token as a building block with real-world purpose. Integrate online and in-store payments using Stronghold Pay's APIs and libraries.",
-    stack: [
-      { stack: "Solidity" },
-      { stack: "Ethereum" },
-      { stack: "Next.js" },
-      { stack: "Web3.js" },
-    ],
-    keya: [
-      { keya: "" },
-      { keya: "Wallet Integration" },
-      { keya: "RAG Chatbot" },
-      { keya: "AI Search Engine" },
-    ],
-    responsibility: "Web3 Frontend Developer",
-    techview1: "Handled the development of smart contracts to manage transactions and asset storage, ensuring transparency and immutability, and created a Web3-integrated frontend for user interaction with decentralized features. The platform likely utilizes Ethereum or similar EVM-compatible blockchains, and wallet integrations (e.g., MetaMask) to enable smooth user onboarding and transaction handling.",
-    techview2: "The smart contracts were designed to maintain security and enforce contract logic, ensuring asset transfers and data storage were both secure and reliable on-chain.",
-    techview3: "On the frontend, implemented Web3.js or Ethers.js to connect the decentralized app (dApp) with the blockchain, handling real-time updates, user authentication, and transaction processing for a seamless decentralized experience.",
-    issues: "Frontend and Smart Contract Synchronization:Delays in transaction confirmation or network congestion could lead to frontend desynchronization, causing a lag in displayed information.",
-    solutions: "Integrated a real-time polling mechanism to refresh transaction status, and used event listeners for smart contracts to update the frontend upon state changes, ensuring that users received accurate, up-to-date information without noticeable lag.",
-  },
+  // {
+  //   id: 5,
+  //   title: "Stronghold",
+  //   images: [
+  //     { url: "/images/projects/stronghold.png" },
+  //     { url: "/images/projects/stronghold2.png" }
+  //   ],
+  //   workTabs: "Blockchain",
+  //   workContent: "Open-source projects",
+  //   workGithub: "",
+  //   workRealLink: "https://stronghold.co/shx",
+  //   projectId: 2,
+  //   description: "Stronghold's expanding payments ecosystem uses the SHx token as a building block with real-world purpose. Integrate online and in-store payments using Stronghold Pay's APIs and libraries.",
+  //   stack: [
+  //     { stack: "Solidity" },
+  //     { stack: "Ethereum" },
+  //     { stack: "Next.js" },
+  //     { stack: "Web3.js" },
+  //   ],
+  //   keya: [
+  //     { keya: "" },
+  //     { keya: "Wallet Integration" },
+  //     { keya: "RAG Chatbot" },
+  //     { keya: "AI Search Engine" },
+  //   ],
+  //   responsibility: "Web3 Frontend Developer",
+  //   techview1: "Handled the development of smart contracts to manage transactions and asset storage, ensuring transparency and immutability, and created a Web3-integrated frontend for user interaction with decentralized features. The platform likely utilizes Ethereum or similar EVM-compatible blockchains, and wallet integrations (e.g., MetaMask) to enable smooth user onboarding and transaction handling.",
+  //   techview2: "The smart contracts were designed to maintain security and enforce contract logic, ensuring asset transfers and data storage were both secure and reliable on-chain.",
+  //   techview3: "On the frontend, implemented Web3.js or Ethers.js to connect the decentralized app (dApp) with the blockchain, handling real-time updates, user authentication, and transaction processing for a seamless decentralized experience.",
+  //   issues: "Frontend and Smart Contract Synchronization:Delays in transaction confirmation or network congestion could lead to frontend desynchronization, causing a lag in displayed information.",
+  //   solutions: "Integrated a real-time polling mechanism to refresh transaction status, and used event listeners for smart contracts to update the frontend upon state changes, ensuring that users received accurate, up-to-date information without noticeable lag.",
+  // },
 
   // IDEX
   {
@@ -1041,7 +1041,7 @@ export const workExperience: WorkExperience[] = [
 
   },
 
- 
+
 
   // Lyeintl
   {
@@ -1102,7 +1102,7 @@ export const resumeExp: resume[] = [
     logo: "",
     link: "",
   },
-  
+
   {
     id: 10,
     title: "Blockchain Engineer",
@@ -1134,7 +1134,7 @@ export const resumeExp: resume[] = [
     experience: false,
     link: "https://www.roadninja.co.nz/",
   },
-  
+
   {
     id: 5,
     title: "FullStack Engineer",
@@ -1145,7 +1145,7 @@ export const resumeExp: resume[] = [
     experience: false,
     link: " https://thirdeyedata.ai/",
   },
- 
+
 
 
 
