@@ -32,7 +32,7 @@ export default function ProfileCard() {
           <MyLink
             name="My Twitter"
             Icon={FaTwitter}
-            url="https://x.com/MentholMen47387"  
+            url="https://x.com/SilkenCore59010"  
             border 
           />
           <MyLink
