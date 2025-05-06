@@ -25,7 +25,7 @@ export default function TestimonialSkeleton() {
           width={70}
           style={{ margin: ".5rem 0 1.7rem 0" } as React.CSSProperties}
         />
-      </div>
+      </div>   
     </SkeletonWrapper>
   )
 }
