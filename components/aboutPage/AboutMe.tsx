@@ -6,9 +6,9 @@ export default function AboutMe() {
     <div className="px-12 py-10 mb-16">
       <article className="prose max-w-none prose-h2:mb-2.5 prose-h2:text-[2rem] prose-p:text-3xl prose-p:leading-[1.65]">
         <p className="text-gray-300">
-          Hi friends,
-          I build with intention—combining the power of AI and blockchain to design solutions that are as smart as they are meaningful. <br/>
-          I believe in writing code that not only works, but speaks to clarity, creativity, and future potential.
+          Trusted and dedicated, I believe in thinking twice and coding once — precision is power. <br/>
+          I build for decentralized networks with a deep love for Python, Rust, and clean systems. <br/>
+          Code is my craft, philosophy my compass.
         </p>
       </article> 
 

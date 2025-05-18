@@ -24,7 +24,7 @@ export default function MyResume() {
   }, []);
 
   return (
-    <ul className="grid sm:grid-cols-2 grid-cols-1">
+    <ul className="grid grid-cols-1">
       <li className="py-8 px-12">
         <IconTitle title="experience" Icon={FaNetworkWired} />
 
@@ -38,16 +38,20 @@ export default function MyResume() {
           resumeExp.map((r, idx) => (
            
             <div className="mt-12" key={idx}>
-              <div className="text-2xl border-solid border border-gray-400 w-40 justify-center text-center text-gray-400">{r.badge}</div>
               <div className="text-3xl mt-6 text-blue-600">{r.title}</div>
-              <Link href={r.link} className="no-underline"><div className="no-underline text-3xl mt-4 text-orange-400">{r.subtitle}</div></Link>
-              <div className="text-2xl mt-2 text-gray-500">{r.desc}</div>
+              <Link href={r.link} underline="none" className="no-underline"><div className="no-underline text-3xl mt-2 text-orange-400">{r.subtitle}</div></Link>
+              <div className="text-2xl border-solid border border-gray-400 w-60 mt-2 justify-center text-center text-gray-400">{r.badge}</div>
+              <div className="text-2xl mt-2 text-gray-500">
+                {r.desc.split('.').filter(sentence => sentence.trim() !== '').map((sentence, index) => (
+                  <p key={index} className="mb-2">{sentence.trim()}</p>
+                ))}
+              </div>
             </div>
           ))
         )}
       </li>
 
-      <li className="py-8 px-12 relative vCustomLine sm:before:block before:hidden before:left-0">
+      <li className="py-8 px-12">
         <IconTitle title="education" Icon={FaGraduationCap} />
 
         {filteredData === undefined ? (

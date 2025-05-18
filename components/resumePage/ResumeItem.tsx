@@ -17,15 +17,7 @@ export default function ResumeItem({ resume, border }: Props) {
         border ? "customLine before:bottom-0 relative borderLeft pb-11" : "pb-3"
       }`}
     >
-      <h2
-        className={`${
-          resume.badge.endsWith("Present")
-            ? "text-main-orange border-main-orange"
-            : "text-gray-500 border-gray-500"
-        } border border-solid text-xl py-0.5 px-3 tracking-wide inline-block`}
-      >
-        {resume.badge}
-      </h2>
+     
 
       <div className="flex items-center justify-between flex-wrap">
         <h3 className="text-2xl capitalize font-medium text-gray-300 tracking-wide mt-5 mb-4">
@@ -46,9 +38,19 @@ export default function ResumeItem({ resume, border }: Props) {
       <p className="text-gray-500 text-xl capitalize tracking-wider">
         {resume.subTitle}
       </p>
-
-      <div className="text-gray-500 text-2xl capitalize tracking-wide mt-5 leading-relaxed whitespace-pre-line">
-        {resume.desc}
+      <h2
+        className={`${
+          resume.badge.endsWith("Present")
+            ? "text-main-orange border-main-orange"
+            : "text-gray-500 border-gray-500"
+        } border border-solid text-xl py-0.5 px-3 tracking-wide inline-block `}
+      >
+        {resume.badge}
+      </h2>
+      <div className="text-gray-500 text-2xl capitalize tracking-wide mt-5 leading-relaxed">
+        {resume.desc.split(/\n+/).map((line, index) => (
+          <p key={index} className="mb-2">{line.trim()}</p>
+        ))}
       </div>
     </div>
   )

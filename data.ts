@@ -7,7 +7,6 @@ import {
   FaTelegram,
   FaSkype,
   FaLinkedin,
-  FaTwitter,
   FaRegNewspaper,
 } from "react-icons/fa"
 import { SiFreelancer } from "react-icons/si";
@@ -19,6 +18,7 @@ import {
   SiWeb3Dotjs,
   SiFrontendmentor,
 } from "react-icons/si"
+import { FaXTwitter } from "react-icons/fa6"
 import About from "./components/aboutPage/About"
 import { FaStackOverflow } from "react-icons/fa";
 import Contact from "./components/contactPage/Contact"
@@ -50,20 +50,13 @@ export const socialMedias: SocialMedia[] = [
   },
   {
     id: 1,
-    Icon: FaTwitter,
-    label: "Twitter",
+    Icon: FaXTwitter,
+    label: "X",
     logoColor: "#171515",
     mediaUrl: "https://x.com/SilkenCore59010",
     info: "Follow my X.",
   },
-  {
-    id: 4,
-    Icon: SiFreelancer,
-    label: "Freelancer",
-    logoColor: "#5865f2",
-    mediaUrl: "https://www.freelancer.com/u/spectrecoder",
-    info: "Let's discuss professional vision in Freelancer.",
-  },
+
   {
     id: 6,
     Icon: FaTelegram,
@@ -145,8 +138,8 @@ export const menus: MenuData[] = [
 export const socialMedia: SocialMedia[] = [
   {
     id: 1,
-    Icon: FaTwitter,
-    label: "Twitter",
+    Icon: FaXTwitter,
+    label: "X",
     logoColor: "#5865f2",
     mediaUrl: "https://x.com/SilkenCore59010",
     info: "Follow my X.",
@@ -185,14 +178,7 @@ export const socialMedia: SocialMedia[] = [
     mediaUrl: "https://discordapp.com/users/1201323402053554301",
     info: "Let's chat on Discord. Now I am with you.",
   },
-  {
-    id: 4,
-    Icon: SiFreelancer,
-    label: "Freelancer",
-    logoColor: "#5865f2",
-    mediaUrl: "https://www.freelancer.com/u/spectrecoder",
-    info: "Let's discuss professional vision in Freelancer.",
-  }
+
 
 ]
 
@@ -1086,7 +1072,7 @@ export const resumeExp: resume[] = [
     id: 1,
     title: "Blockchain Engineer",
     subtitle: "Stellar & XXX Blockchain",
-    desc: "Developed EarnLumens on Stellar. \n Built Python SDK on XXX Blockchain.",
+    desc: "- Developed EarnLumens on Stellar.\n\n - Built Python SDK on XXX Blockchain.",
     badge: "2025.3 - Current",
     experience: false,
     logo: "",
@@ -1139,7 +1125,7 @@ export const resumeExp: resume[] = [
     id: 5,
     title: "FullStack Engineer",
     subtitle: "Third Eye",
-    desc: "- Built cross-platform mobile app using Flutter. \n - Developed backend API with Node.js.",
+    desc: "- Built cross-platform mobile app using Flutter. \n - Developed backend API with NodeJS.",
     badge: "2018 - 2019",
     logo: "",
     experience: false,

@@ -5,7 +5,7 @@ import MyLink from "./MyLink";
 import Slide from "./Slide";
 import Typing from "./Typing";
 import Image from "next/image";
-import { FaTwitter } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function ProfileCard() {
   return (
@@ -31,7 +31,7 @@ export default function ProfileCard() {
         <div className="absolute bottom-0 left-0 flex w-full h-28 borderLeft customLine">
           <MyLink
             name="My Twitter"
-            Icon={FaTwitter}
+            Icon={FaXTwitter}
             url="https://x.com/SilkenCore59010"  
             border 
           />
