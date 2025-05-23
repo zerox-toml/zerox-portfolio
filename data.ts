@@ -315,7 +315,7 @@ export const workExperience: WorkExperience[] = [
     ],
     workTabs: "Blockchain",
     workContent: "AI-Driven DeFi Protocol on Sonic Blockchain",
-    workGithub: "https://github.com/zerox-toml/HOG-DAO-System",
+    workGithub: "https://github.com/zerox-toml/HOG-Governance",
     workRealLink: "https://www.handofgod.app/",
     projectId: 1,
     description: "Hand of God is a next-generation DeFi protocol built on the Sonic blockchain, featuring AI-driven automation and real-time on-chain analysis for dynamic supply management and ecosystem optimization.",
