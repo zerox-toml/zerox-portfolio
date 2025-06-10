@@ -269,7 +269,40 @@ export const backslideimages: backSlideImages[] = [
 
 export const workExperience: WorkExperience[] = [
 
-
+// AI & Decentralized Cloud Computing Platform
+{
+  id: 77,
+  title: "AI & Decentralized Cloud Computing Platform",
+  images: [
+    { url: "/images/projects/ens2.png" },
+    { url: "/images/projects/ens.png" }
+  ],
+  workTabs: "Blockchain",
+  workContent: "Web3 Full Stack Developer",
+  workGithub: "",
+  workRealLink: "https://www.opsec.computer/",
+  projectId: 1,
+  description: "You can deploy your applications on the blockchain using this app built with Decentralized CI/CD, ens, ipfs technologies",
+  stack: [
+    { stack: "ENS" },
+    { stack: "IPFS" },
+    { stack: "Next.js" },
+    { stack: "Pinata" },
+    { stack: "TypeScript" },
+  ],
+  keya: [
+    { keya: "Decentralized CI/CD" },
+    { keya: "Github/Wallet/Goolge Login" },
+    { keya: "IPFS Hosting" },
+    { keya: "Supabase" },
+  ],
+  responsibility: "Web3 & Full Stack Developer",
+  techview1: "Developed decentralized CI/CD pipeline with GitHub integration for automated deployments.",
+  techview2: "Implemented IPFS-based storage solution for secure, distributed content hosting.",
+  techview3: "Integrated ENS for decentralized domain management and routing.",
+  issues: "Ensuring persistent file availability in distributed IPFS network.",
+  solutions: "Implemented Pinata integration for reliable file pinning and persistent storage management.",
+},
 
   // Ape-lol Pumpfun
   {
@@ -279,7 +312,7 @@ export const workExperience: WorkExperience[] = [
       { url: "/images/projects/apelol.png" },
     ],
     workTabs: "Blockchain",
-    workContent: "Blockchain",
+    workContent: "Solana Blockchain Developer",
     workGithub: "https://github.com/zerox-toml/pumpfun-solana",
     workRealLink: "https://app.ape.lol/",
     projectId: 1,
@@ -297,7 +330,7 @@ export const workExperience: WorkExperience[] = [
       { keya: "Leaderboard" },
 
     ],
-    responsibility: "Blockchain & Full Stack Developer",
+    responsibility: "Solana Blockchain Developer",
     techview1: "Token Creation Platform: APE.LOL allows users to launch memecoins on the Solana blockchain for as little as $1, targeting fast and fair token launches without presales.",
     techview2: "Bonding Curve Mechanics: Uses bonding curves for token pricing, where liquidity is automatically deployed to Raydium at a $42,000 market cap, ensuring a fair and automated liquidity process.",
     techview3: "Simplified UX: Features a highly intuitive user interface designed for quick token creation and seamless trading experiences.",
@@ -314,7 +347,7 @@ export const workExperience: WorkExperience[] = [
       { url: "/images/projects/hog2.png" },
     ],
     workTabs: "Blockchain",
-    workContent: "AI-Driven DeFi Protocol on Sonic Blockchain",
+    workContent: "Lead Blockchain Developer",
     workGithub: "https://github.com/zerox-toml/HOG-Governance",
     workRealLink: "https://www.handofgod.app/",
     projectId: 1,
@@ -350,12 +383,12 @@ export const workExperience: WorkExperience[] = [
       { url: "/images/projects/champion2.png" }
     ],
     workTabs: "Blockchain",
-    workContent: "Texas Hold'em Poker Game",
+    workContent: "Blockchain Developer",
     workGithub: "https://github.com/zerox-toml",
     workRealLink: "https://staging.ccpoker.games/",
     projectId: 4,
     description: "Texas Hold'em Poker Game on Ethereum, Polygon using ElGamal Encryption System, ZKP for security on Ethereum, Polygon.",
-    stack: [
+    stack: [    
       { stack: "React.js" },
       { stack: "ElGamal Encryption" },
       { stack: "ZK Snarks" },
@@ -379,17 +412,17 @@ export const workExperience: WorkExperience[] = [
   },
   // Treasure Aptos NFT Game
   {
-    id: 102,
+    id: 106,
     title: "Treasure Aptos Tokenized Game",
     images: [
       { url: "/images/projects/treasure1.png" },
     ],
     workTabs: "Blockchain",
-    workContent: "Aptos Network",
+    workContent: "Move Blockchain Developer",
     workGithub: "https://github.com/zerox-toml/Aptos-Clicker-Game-Contract",
     workRealLink: "https://aptostreasurehunt.vercel.app/",
     projectId: 1,
-    description: "You can deploy your applications on the blockchain using this app built with Decentralized CI/CD, ens, ipfs technologies",
+    description: "A blockchain-based treasure hunt game on Aptos that combines geolocation technology with NFT rewards. Players discover and claim digital treasures by visiting real-world locations, creating an engaging blend of physical and digital experiences.",
     stack: [
       { stack: "Aptos" },
       { stack: "Move" },
@@ -403,52 +436,13 @@ export const workExperience: WorkExperience[] = [
       { keya: "Reward System" },
       { keya: "Geolocation-Based GamePlay" },
     ],
-    responsibility: "Web3 & Full Stack Developer",
+    responsibility: "Move Blockchain & Full Stack Developer",
     techview1: "The game combines blockchain technology with real-world geolocation, allowing players to discover and claim treasures by physically visiting specific locations. This feature adds an engaging layer of interaction between the digital and physical world. ",
     techview2: "Built on the Aptos blockchain, the game leverages smart contracts to ensure transparent, immutable, and secure treasure drops and claims, providing fairness and decentralized control. Scalable and Fast Transactions: By utilizing Aptos' high throughput and low latency infrastructure, the game supports large-scale user participation without compromising performance. ",
     techview3: "The platform integrates Aptos wallets for smooth token transactions, enabling players to easily claim rewards and trade their assets with low transaction fees.",
     issues: "In IPFS, files are stored in a distributed network, but they're not guaranteed to persist unless they are actively 'pinned' on one or more nodes. If no node is pinning the file, it may become unavailable over time..",
     solutions: "Used third-party pinning services like Pinata to ensure that your dApp's files remain available. This service provide persistent storage by keeping your files pinned in their IPFS nodes. Players can receive and trade treasures as tokens, making the rewards system transparent and adaptable to various gameplay dynamics.",
   },
-
-
-  // XANA
-  {
-    id: 7,
-    title: "XANA ",
-    images: [
-      { url: "/images/projects/xana1.png" },
-      { url: "/images/projects/xana2.png" }
-    ],
-    workTabs: "Blockchain",
-    workContent: "NFT Game",
-    workGithub: "",
-    workRealLink: "https://xana.net/",
-    projectId: 4,
-    description: "Next-Gen Tech x Entertainment Gathering in the Metaverse.",
-    stack: [
-      { stack: "React.js" },
-      { stack: "XANA Chain" },
-      { stack: "Ether.js" },
-      { stack: "Socket.io" },
-      { stack: "WordPress" },
-      { stack: "PHP" },
-      { stack: "Node.js" },
-    ],
-    keya: [
-      { keya: "Avatar Customization" },
-      { keya: "NFT Marketplace" },
-      { keya: "In-game Chat" },
-      { keya: "Launchpad" },
-    ],
-    responsibility: "Blockchain Developer & Cryptographer & Full Stack Developer",
-    techview1: "Custom Blockchain Integration: XANA operates on an Ethereum sidechain, enabling high-speed, low-cost transactions tailored for metaverse applications, including land trading, NFT management, and GameFi features like trading card battles.",
-    techview2: "Interactive User-Generated Worlds: The platform supports user-generated virtual worlds, enabling customization through tools like XANA Builder, with features such as NFT integration and 3D assets​.",
-    techview3: "Challenge Mechanism : if a particular player has doubts of the game's fairness and would like to challenge and check the fairness of cards, aspecial mode is triggered to pull what's on the chain and check. challenger pays the gas fee.",
-    issues: "Challenge: Ensuring seamless rendering and interaction of high-quality 3D assets across different devices, including mobile and VR, while maintaining performance and low latency.",
-    solutions: "Leveraged frameworks like React Three.js and optimized rendering pipelines to reduce load times by 30%. Implemented real-time asset compression and caching strategies, ensuring consistent performance on low-bandwidth networks​.",
-  },
-
 
   // Frontier Registry
   {
@@ -459,12 +453,13 @@ export const workExperience: WorkExperience[] = [
       { url: "/images/projects/frontier2.png" }
     ],
     workTabs: "Blockchain",
-    workContent: "IP NFT Marketplace",
+    workContent: "Blockchain Developer",
     workGithub: "https://github.com/zerox-toml/Frontier-Registry-Contract-Stellar",
     workRealLink: "https://www.youtube.com/watch?v=lAxw35kjUzI",
     projectId: 4,
     description: "Scientific research published and peer reviewed on-chain. Option to crowdsource funding by minting your research paper/IP as a NFT. Now I am focusing on AI integration with this dapp.",
     stack: [
+      { stack: "Stellar" },
       { stack: "Rust" },
       { stack: "Soroban SDK" },
       { stack: "IPFS" },
@@ -477,7 +472,7 @@ export const workExperience: WorkExperience[] = [
       { keya: "RAG Chatbot" },
       { keya: "AI Search Engine" },
     ],
-    responsibility: "Blockchain & AI & Full Stack Developer",
+    responsibility: "Blockchain Developer",
     techview1: "Frontier Registry provides simple UX/UI that does not require any prior knowledge or experience of blockchain.For researchers this lightens technology capacity building.",
     techview2: "Users can certify their IP ownership with one simple click. Through automated certification their research artefact certification hash is immutably stored on the Stellar blockchain.",
     techview3: "As AI is used more frequently for Scientific (STEM) research, data authentication aids researchers in establishing defensible foundations for their data artefact.",
@@ -488,40 +483,7 @@ export const workExperience: WorkExperience[] = [
 
 
 
-  // Web hosting Dapp
-  {
-    id: 77,
-    title: "Web hosting Dapp",
-    images: [
-      { url: "/images/projects/ens1.png" },
-      { url: "/images/projects/ens.png" }
-    ],
-    workTabs: "Blockchain",
-    workContent: "Hackathon",
-    workGithub: "",
-    workRealLink: "https://drive.google.com/file/d/18GVcPtOFhg2BfBDDr0tVfeinETMGgq7f/view?usp=drive_link",
-    projectId: 1,
-    description: "You can deploy your applications on the blockchain using this app built with Decentralized CI/CD, ens, ipfs technologies",
-    stack: [
-      { stack: "ENS" },
-      { stack: "IPFS" },
-      { stack: "Next.js" },
-      { stack: "Pinata" },
-      { stack: "TypeScript" },
-    ],
-    keya: [
-      { keya: "Decentralized CI/CD" },
-      { keya: "Github/Wallet/Goolge Login" },
-      { keya: "IPFS Hosting" },
-      { keya: "Decentralized Name Service" },
-    ],
-    responsibility: "Web3 & Full Stack Developer",
-    techview1: "The DApp offers decentralized CI/CD services, enabling users to log in with GitHub credentials. ",
-    techview2: "After building the project, the resulting output is hosted on IPFS for secure, decentralized storage. ",
-    techview3: "This IPFS-hosted project is then linked to the user's decentralized naming service (such as ENS).",
-    issues: "In IPFS, files are stored in a distributed network, but they're not guaranteed to persist unless they are actively 'pinned' on one or more nodes. If no node is pinning the file, it may become unavailable over time..",
-    solutions: "Used third-party pinning services like Pinata to ensure that your dApp's files remain available. This service provide persistent storage by keeping your files pinned in their IPFS nodes",
-  },
+  
 
   // Beowulf
   // {
@@ -663,36 +625,7 @@ export const workExperience: WorkExperience[] = [
   },
 
 
-  {
-    id: 2,
-    title: "Puffer Staking Platform",
-    images: [
-      { url: "/images/projects/buffer1.png" },
-      { url: "/images/projects/buffer2.png" }
-    ],
-    workTabs: "Blockchain",
-    workContent: "Open-Source Project",
-    workGithub: "https://github.com/PufferFinance",
-    workRealLink: "https://www.puffer.fi/",
-    projectId: 4,
-    description: "Stake any amount of ETH to receive pufETH, Puffer's native Liquid Restaking Token (nLRT).",
-    stack: [
-      { stack: "Web3.js" },
-      { stack: "Next.js" },
-      { stack: "Node.js" },
-    ],
-    keya: [
-      { keya: "Secure-Signer" },
-      { keya: "RAVe" },
-      { keya: "Puffer" },
-    ],
-    responsibility: "Web3 Frontend Developer",
-    techview1: "Secure-Signer leverages Trusted Execution Environments (TEEs) and is currently implemented as an Intel SGX enclave. To mitigate points of failure, Puffer is committed to manufacturer diversity with plans to implement Secure-Signer on AMD's SEV TEE and new hardware as they come to market.",
-    techview2: "RAVe is the second component of Puffer's Ethereum Foundation grant and stands for Remote Attestation Verification. This essential set of smart contracts allows enclaves to interface with blockchains securely and helps let the Puffer protocol be permissionless. RAVe enables entirely new use cases that weren't previously possible that we are excited to explore at Puffer.",
-    techview3: "Native restaking allows validators to better utilize their ETH capital and hardware to supplement their PoS rewards.",
-    issues: "Interact with Puffer Smart Contract.",
-    solutions: "Used Puffer-SDK to seamlessly interact with puffer smart contracts",
-  },
+ 
 
 
   // Roadninja
@@ -765,99 +698,13 @@ export const workExperience: WorkExperience[] = [
   //   solutions: "Integrated a real-time polling mechanism to refresh transaction status, and used event listeners for smart contracts to update the frontend upon state changes, ensuring that users received accurate, up-to-date information without noticeable lag.",
   // },
 
-  // IDEX
-  {
-    id: 6,
-    title: "IDEX",
-    images: [
-      { url: "/images/projects/idex.png" },
-    ],
-    workTabs: "Blockchain",
-    workContent: "Open-Source Project",
-    workGithub: "https://github.com/zerox-toml/idex-farm",
-    workRealLink: "https://idex.io/",
-    projectId: 3,
-    description: "IDEX is a decentralized exchange (DEX) that combines an order-book model with an automated market maker (AMM) for seamless trading.",
-    stack: [
-      { stack: "Solidity" },
-      { stack: "Ethereum" },
-      { stack: "Polygon" },
-      { stack: "Typescript" },
-    ],
-    keya: [
-      { keya: "IDEX SDK" },
-      { keya: "IDEX Contract Silverton" },
-      { keya: "DefiLama Adapter" },
-      { keya: "IDEX Farm V2" },
-    ],
-    responsibility: "Solidity Smart Contract & Web3 Frontend Developer",
-    techview1: "Its perpetual swap smart contracts enable leveraged trading, allowing users to speculate on asset price movements without owning the underlying asset.",
-    techview2: "The contracts are designed to ensure robust price discovery by utilizing decentralized oracles and dynamic funding rate mechanisms, maintaining fair pricing between long and short positions.",
-    techview3: "Built on Ethereum and other EVM-compatible blockchains, IDEX employs high-performance infrastructure to deliver low-latency transactions while preserving decentralization.",
-    issues: "Managing oracle price latency can lead to inaccurate pricing in volatile markets, potentially exposing users to risk or opening the protocol to exploitation.",
-    solutions: "Integrate multiple decentralized oracles like Chainlink and Band Protocol, with aggregation and fallback mechanisms, to ensure more accurate, real-time price feeds and minimize discrepancies during high volatility.",
-  },
+ 
 
   // TrueRev
-  {
-    id: 35,
-    title: "TrueRev",
-    images: [
-      { url: "/images/projects/sass.png" },
-      { url: "/images/projects/sass1.png" }
-    ],
-    workTabs: "Full Stack",
-    workContent: "SAAS Platform",
-    workGithub: "",
-    workRealLink: "https://www.truerev.com",
-    projectId: 3,
-    description: "Move your revenue schedules off of Excel. Stay compliant with ASC 606. Generate subscription metrics (MRR/ARR, Bookings, Churn, Cash-flow). Track new deals, upgrades, cancellations & expansion.",
-    stack: [
-      { stack: "Svelte" },
-      { stack: "Node.js" },
-      { stack: "Nginx" },
-    ],
-    keya: [
-      { keya: "CLV Wallet" },
-      { keya: "CLV Mainnet" },
-      { keya: "CLV Parachain" },
-      { keya: "Staking" },
-    ],
-    responsibility: "Web3 Frontend Developer",
-    techview1: "Revenue Recognition Automation: TrueRev helps B2B SaaS companies automate complex revenue recognition processes, replacing manual spreadsheets with tools that comply with standards like ASC 606, enabling accurate financial reporting and reducing errors.",
-    techview2: "The platform provides real-time cash flow tracking, including deferred revenue and recurring subscription metrics (e.g., MRR/ARR), helping businesses monitor financial health and make informed decisions quickly.",
-    techview3: "CRM Integration: By syncing with tools like QuickBooks and Salesforce, TrueRev consolidates customer and financial data, improving accuracy and enabling better alignment between sales and financial operations.",
-    issues: "Wallet Development",
-    solutions: "Developed User-friendly, Safe Wallet",
-  },
+  
 
 
-  // RealEstate
-  {
-    id: 11,
-    title: "RealEstate",
-    images: [
-      { url: "/images/projects/realestate2.png" },
-      { url: "/images/projects/realestate.png" }
-    ],
-    workTabs: "Full Stack",
-    workContent: "Online Commercial Platform",
-    workGithub: "",
-    workRealLink: "https://gedneygroup.com/",
-    projectId: 4,
-    description: "Real Estate Site, GoogleMaps",
-    stack: [
-      { stack: "React" },
-      { stack: "Typescript" },
-      { stack: "Next.js" },
-      { stack: "GoogleMaps" },
-      { stack: "ApolloGraphQL" },
-    ],
-
-    responsibility: "Full Stack Developer",
-  },
-
-  // Emarque
+   // Emarque
   {
     id: 111,
     title: "Emarque",
@@ -900,11 +747,11 @@ export const workExperience: WorkExperience[] = [
       { url: "/images/projects/realestate.png" }
     ],
     workTabs: "Ecommerce",
-    workContent: "leading Ecommerce Platform",
+    workContent: "E-commerce Platform",
     workGithub: "",
     workRealLink: "https://www.thecarnivalfair.com.sg/",
     projectId: 4,
-    description: "The Carnival Fair is a leading event planning and carnival rental company in Singapore, specializing in organizing large-scale events like corporate functions, family days, and private parties with a focus on interactive entertainment.",
+    description: "Leading event planning and carnival rental platform in Singapore, specializing in corporate events and private parties.",
     stack: [
       { stack: "Shopify" },
       { stack: "Google Analytics" },
@@ -912,89 +759,22 @@ export const workExperience: WorkExperience[] = [
       { stack: "YMQ Product Options" },
     ],
     keya: [
-      { keya: "Extensive Carnival Games & Rentals" },
-      { keya: "Live Food Stations" },
-      { keya: "Fringe Activities" },
-      { keya: "Advanced Marketing Integration" },
+      { keya: "Event Management" },
+      { keya: "Inventory Control" },
+      { keya: "Payment Processing" },
+      { keya: "Analytics Integration" },
     ],
     responsibility: "Full Stack Developer",
-    techview1: "Offers over 300 game options, including bouncy castles, arcade machines, and traditional game booths, suitable for both large events and small gatherings.",
-    techview2: "Provides live catering services such as popcorn, candy floss, and local delicacies, making events more engaging and memorable​. ",
-    techview3: " Includes unique offerings like face painting, henna art, photo booths, and balloon sculpting to elevate guest experiences​​.",
-    issues: "Managing a wide variety of event offerings and ensuring availability and seamless booking during peak seasons.",
-    solutions: "The Carnival Fair mitigates this by implementing advanced scheduling systems and real-time inventory management.",
+    techview1: "Developed scalable e-commerce platform with 300+ product options and real-time inventory management.",
+    techview2: "Implemented secure payment gateway and automated booking system for seamless transactions.",
+    techview3: "Integrated analytics and marketing tools for enhanced customer engagement and tracking.",
+    issues: "Managing high-volume inventory and booking systems during peak seasons.",
+    solutions: "Implemented automated scheduling and inventory management systems with real-time synchronization.",
   },
 
-  // Medusa Eats App
-  {
-    id: 113,
-    title: "Medusa Eats App",
-    images: [
-      { url: "/images/projects/medusa-eats.png" },
-      { url: "/images/projects/realestate.png" }
-    ],
-    workTabs: "Ecommerce",
-    workContent: "leading Ecommerce Platform",
-    workGithub: "",
-    workRealLink: "https://medusa-eats.vercel.app/",
-    projectId: 4,
-    description: "The Carnival Fair is a leading event planning and carnival rental company in Singapore, specializing in organizing large-scale events like corporate functions, family days, and private parties with a focus on interactive entertainment.",
-    stack: [
-      { stack: "Shopify" },
-      { stack: "Google Analytics" },
-      { stack: "Webflow" },
-      { stack: "YMQ Product Options" },
-    ],
-    keya: [
-      { keya: "Extensive Carnival Games & Rentals" },
-      { keya: "Live Food Stations" },
-      { keya: "Fringe Activities" },
-      { keya: "Advanced Marketing Integration" },
-    ],
-    responsibility: "Full Stack Developer",
-    techview1: "Offers over 300 game options, including bouncy castles, arcade machines, and traditional game booths, suitable for both large events and small gatherings.",
-    techview2: "Provides live catering services such as popcorn, candy floss, and local delicacies, making events more engaging and memorable​. ",
-    techview3: " Includes unique offerings like face painting, henna art, photo booths, and balloon sculpting to elevate guest experiences​​.",
-    issues: "Managing a wide variety of event offerings and ensuring availability and seamless booking during peak seasons.",
-    solutions: "The Carnival Fair mitigates this by implementing advanced scheduling systems and real-time inventory management.",
-  },
+ 
 
-  // Medusa Mobile App
-  {
-    id: 114,
-    title: "Medusa Mobile App",
-    images: [
-      { url: "/images/projects/medusa-app.png" },
-      { url: "/images/projects/realestate.png" }
-    ],
-    workTabs: "Ecommerce",
-    workContent: "React Native Medusa.js Starter Template",
-    workGithub: "https://zerox-toml",
-    workRealLink: "",
-    projectId: 4,
-    description: "Combine Medusa's modules for your commerce backend with the latest Expo features for a mobile storefront that matches Medusa Next.js starter functionality, look and feel.",
-    stack: [
-      { stack: "Medusa.js" },
-      { stack: "React Native" },
-      { stack: "Expo Router" },
-      { stack: "Expo" },
-      { stack: "TypeScript" },
-    ],
-    keya: [
-      { keya: "Shipping Address" },
-      { keya: "Hello Rodrigo" },
-      { keya: "Profile" },
-      { keya: "Advanced Marketing Integration" },
-    ],
-    responsibility: "Full Stack Developer",
-    techview1: "All logic and user flows through the app are working with the Medusa Backend.",
-    techview2: " kickstart a Medusa project with web (Next.js) and mobile (Expo) in a integrated setup for cross platform development.",
-    techview3: " ",
-    issues: "",
-    solutions: "",
-  },
-
-  // Medical Reservation System
+   // Medical Reservation System
   {
     id: 37,
     title: "Medical Reservation System",
@@ -1004,65 +784,34 @@ export const workExperience: WorkExperience[] = [
     ],
     workTabs: "Full Stack",
     workContent: "Booking System",
-    workGithub: "https://zerox-toml",
+    workGithub: "https://github.com/zerox-toml/medical-reservation-app",
     workRealLink: "https://medical-reservation-system.vercel.app/",
     projectId: 4,
     description: "Online Reservation Medical System",
     stack: [
-      { stack: "React" },
+      { stack: "NextJS" },
       { stack: "Typescript" },
       { stack: "Restful API" },
+      { stack: "MySQL" },
+      { stack: "TailwindCSS" },
     ],
     keya: [
       { keya: "Search Features" },
       { keya: "Payment Gateway" },
       { keya: "" },
     ],
-    responsibility: "Frontend Developer",
-    techview1: "Designed and developed an intuitive, responsive user interface leveraging React.js, TypeScript, and Redux Toolkit to ensure seamless user experience and efficient state management.",
-    techview2: "Integrated secure payment gateway solutions to streamline transactions, enhancing customer interaction. ",
-    techview3: "Collaborated with backend teams to implement RESTful API connections, ensuring smooth data flow and robust functionality across the application.",
-    issues: "As the application grows, handling global states with Redux Toolkit can become intricate, leading to potential performance bottlenecks and difficulty debugging if actions, reducers, and middleware aren't well-organized.",
-    solutions: "Use Redux slices and modularize the state by feature to keep the store manageable. Implement selectors and memoization to optimize performance and prevent unnecessary re-renders. Redux DevTools can also help with debugging state changes more efficiently.",
+    responsibility: "Full Stack Developer",
+    techview1: "Developed responsive UI with NextJS, TypeScript, and TailwindCSS for optimal user experience.",
+    techview2: "Implemented secure payment processing for seamless transactions.",
+    techview3: "Developed RESTful API integrations for efficient data flow.",
+    issues: "Global state management complexity with Redux Toolkit can impact performance and debugging.",
+    solutions: "Implemented modular state architecture with Redux slices, selectors, and DevTools for optimized performance and maintainability.",
 
   },
 
 
 
-  // Lyeintl
-  {
-    id: 33,
-    title: "Lyeintl",
-    images: [
-      { url: "/images/projects/lyeintl.png" },
-      { url: "/images/projects/lyeintl2.png" }
-    ],
-    workTabs: "Full Stack",
-    workContent: "Booking System",
-    workGithub: "",
-    workRealLink: "https://lyeintl.com/",
-    projectId: 6,
-    description: "Online Reservation System.",
-    stack: [
-      { stack: "Vue.js V3" },
-      { stack: "Vuetify" },
-      { stack: "Composition API" },
-      { stack: "MySQL" }
-    ],
-    keya: [
-      { keya: "Home" },
-      { keya: "Cleaning Services" },
-      { keya: "Manpower Supply" },
-      { keya: "Careers" },
-    ],
-    responsibility: "Frontend Developer",
-    techview1: "The Lye International platform is a web-based application developed with Vue.js. Vue was chosen for its lightweight framework and reactive data binding, which enhances user experience and facilitates efficient DOM updates. This setup also leverages Vue Router for seamless navigation and Vuex for state management, ensuring consistency and smooth user interactions across pages.",
-    techview2: "Component-Based Architecture: Each part of the platform was built as reusable Vue components, allowing modular design, simplifying debugging, and enabling easy updates. This structure enhances scalability and keeps the code organized.",
-    techview3: "Dynamic Data Binding and State Management: The project employs Vuex for centralized state management, handling data such as user sessions and global UI states. This ensures consistency and reactivity across the application without excessive re-rendering.",
-    issues: "SEO Optimization for SPA:Single-page applications often face SEO challenges since search engines might not fully render JavaScript content.",
-    solutions: "Implemented Vue Server-Side Rendering (SSR) to render pages on the server and serve pre-rendered HTML to search engines, improving SEO. Additionally, dynamic meta tags were added to enhance visibility on search engines.",
-
-  },
+  
 
 ]
 
@@ -1070,31 +819,31 @@ export const workExperience: WorkExperience[] = [
 export const resumeExp: resume[] = [
   {
     id: 1,
-    title: "Blockchain Engineer",
-    subtitle: "Stellar & XXX Blockchain",
-    desc: "- Developed EarnLumens on Stellar.\n\n - Built Python SDK on XXX Blockchain.",
-    badge: "2025.3 - Current",
+    title: "Blockchain & Full Stack Developer",
+    subtitle: "Blockchain",
+    desc: "- Worked on Substrate-based Blockchain. \n - Developed EarnLumens on Stellar.\n - Contributed blockchain infrastructure-Syntor protocol. \n - Built Python SDK & Indexer on Radiant.",
+    badge: "2024 - 2025",
     experience: false,
     logo: "",
-    link: " https://earnlumens.org",
+    link: "https://www.syntor.ai/",
   },
   {
     id: 9,
-    title: "Blockchain Engineer",
-    subtitle: "Tangible Trade",
-    desc: "- Developed Hand of God DAO Governance on Sonic and Cronos. \n - Built perpetual swap using Chainlink Oracles.",
-    badge: "2024 - 2025.3",
+    title: "Blockchain Developer",
+    subtitle: "Opsec",
+    desc: "- Developed AI & Decentralized Cloud Computing Platform. \n - Designed StableCoin on Sonic. \n - Built perp-swap using Chainlink Oracles.",
+    badge: "2023 - 2024",
     experience: false,
     logo: "",
-    link: "",
+    link: "https://www.opsec.computer/",
   },
 
   {
     id: 10,
-    title: "Blockchain Engineer",
+    title: "Smart Contract Developer",
     subtitle: "G.U.Technologies",
     desc: "- Developed a custom NFT launch platform on Solana using pumpfun architecture. \n - Frontier Registry, Treasure Aptos Game. \n - Developed cross-platform custodial wallets for desktop and mobile using svelte and react native. \n - Designed and implemented a cross-chain asset bridge. ...",
-    badge: "2022 - 2024",
+    badge: "2022 - 2023",
     experience: false,
     logo: "",
     link: "https://www.gu-tech.com/ja/about-us",
@@ -1102,7 +851,7 @@ export const resumeExp: resume[] = [
 
   {
     id: 2,
-    title: "Blockchain Engineer",
+    title: "Web3 Developer",
     subtitle: "Osiz Technologies",
     desc: "- Secured on-chain poker game on Ethereum & BNB. \n - Built responsive, real-time dashboards. \n - Developed scalable backend services web3 platforms using node, django.",
     badge: "2020 - 2022",
@@ -1112,7 +861,7 @@ export const resumeExp: resume[] = [
   },
   {
     id: 3,
-    title: "FullStack & Mobile Engineer",
+    title: "Software Developer",
     subtitle: "Roadninja",
     desc: "- Developed Roadninja commercial platform web & mobile versions.",
     badge: "2019 - 2020",
@@ -1123,7 +872,7 @@ export const resumeExp: resume[] = [
 
   {
     id: 5,
-    title: "FullStack Engineer",
+    title: "Frontend Developer",
     subtitle: "Third Eye",
     desc: "- Built cross-platform mobile app using Flutter. \n - Developed backend API with NodeJS.",
     badge: "2018 - 2019",
