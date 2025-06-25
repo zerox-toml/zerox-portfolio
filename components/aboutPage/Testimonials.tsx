@@ -13,15 +13,7 @@ interface TestimonialQuery {
 }
 
 const testimonialData: TestimonialData[] = [
-  {
-    id: "1",
-    userName: "Paige Donner",
-    userProfession: "Co-founder FrontierDAO.xyz",
-    quote: "I appreciate your conscientiousness and am grateful for the communication, terrific developer...",
-    userImage: {
-      url: "/images/paige.png"
-    }
-  },
+ 
   {
     id: "2",
     userName: "Daniel Villanueva",
