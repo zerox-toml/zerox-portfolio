@@ -12,9 +12,9 @@ async function fetchData(url: string) {
 }
 
 export default function Stats() {
-  const [pageViews, setPageViews] = useState<number>(500)
-  const [totalArticles, setTotalArticles] = useState<number>(0)
-  const [articleReactions, setArticleReactions] = useState<number>(0)
+  const [pageViews, setPageViews] = useState<number>(1000)
+  const [totalArticles, setTotalArticles] = useState<number>(15)
+  const [articleReactions, setArticleReactions] = useState<number>(1000)
 
   // useEffect(() => {
   //   async function fetchApiData(): Promise<void> {

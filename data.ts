@@ -219,8 +219,8 @@ export const services: ServiceData[] = [
 
 export const statisticsData: StatisticsData[] = [
   {
-    title: "stack",
-    info: "Solidity and Rust",
+    title: "Main Stack",
+    info: "Blockchain, LLM, Full Stack",
   },
   {
     title: "projects",
@@ -228,7 +228,7 @@ export const statisticsData: StatisticsData[] = [
   },
   {
     title: "clients",
-    info: "5+",
+    info: "10+",
   },
 ]
 

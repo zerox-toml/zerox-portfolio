@@ -30,6 +30,24 @@ const testimonialData: TestimonialData[] = [
     userImage: {
       url: "/images/dani.png"
     }
+  },
+  {
+    id: "3",
+    userName: "André Caetano Luna",
+    userProfession: "Blockchain Analytics",
+    quote: "Tested, its working great, and its super fast, you nailed it. thank you!",
+    userImage: {
+      url: "/images/andre.png"
+    }
+  },
+  {
+    id: "4",
+    userName: "Joshua Broshar",
+    userProfession: "Blockchain Community Manager",
+    quote: "I'm impressed with your work. And the other developers are also satisfied with your work.",
+    userImage: {
+      url: "/images/joshua.png"
+    }
   }
 ];
 
