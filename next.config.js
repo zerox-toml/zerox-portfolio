@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   images: {
     domains: ["media.graphassets.com", "res.cloudinary.com", "media.dev.to"],
-    unoptimized: true, // This helps with Netlify deployment
+    unoptimized: true,
   },
 }
 
