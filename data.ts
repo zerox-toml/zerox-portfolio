@@ -76,14 +76,7 @@ export const socialMedias: SocialMedia[] = [
     info: "Star my projects on Github",
   },
 
-  {
-    id: 3,
-    Icon: FaDiscord,
-    label: "Discord",
-    logoColor: "#5865f2",
-    mediaUrl: "https://discordapp.com/users/1201323402053554301",
-    info: "Let's chat on Discord.",
-  },
+
 
 
 
@@ -145,7 +138,7 @@ export const socialMedia: SocialMedia[] = [
     info: "Follow my X.",
   },
   {
-    id: 11,
+    id: 2,
     Icon: FaLinkedin,
     label: "Linkedin",
     logoColor: "#5865f2",
@@ -153,7 +146,7 @@ export const socialMedia: SocialMedia[] = [
     info: "Let's discuss professional vision in Linkedin.",
   },
   {
-    id: 1,
+    id: 3,
     Icon: FaTelegram,
     label: "Telegram",
     logoColor: "black",
@@ -162,7 +155,7 @@ export const socialMedia: SocialMedia[] = [
   },
 
   {
-    id: 2,
+    id: 4,
     Icon: AiOutlineGithub,
     label: "Github",
     logoColor: "#171515",
@@ -170,14 +163,7 @@ export const socialMedia: SocialMedia[] = [
     info: "Star my projects on Github",
   },
 
-  {
-    id: 3,
-    Icon: FaDiscord,
-    label: "Discord",
-    logoColor: "#5865f2",
-    mediaUrl: "https://discordapp.com/users/1201323402053554301",
-    info: "Let's chat on Discord. Now I am with you.",
-  },
+  
 
 
 ]
@@ -270,43 +256,109 @@ export const backslideimages: backSlideImages[] = [
 export const workExperience: WorkExperience[] = [
 
 // AI & Decentralized Cloud Computing Platform
+
 {
-  id: 77,
-  title: "AI & Decentralized Cloud Computing Platform",
+  id: 1,
+  title: "Cosmicrafts",
   images: [
-    { url: "/images/projects/ens2.png" },
-    { url: "/images/projects/ens.png" }
+    { url: "/images/projects/cosmicraft.png" },
+   
   ],
   workTabs: "Blockchain",
-  workContent: "Web3 Full Stack Developer",
-  workGithub: "",
-  workRealLink: "https://www.opsec.computer/",
-  projectId: 1,
-  description: "You can deploy your applications on the blockchain using this app built with Decentralized CI/CD, ens, ipfs technologies",
+  workContent: "ICP Metaverse Game",
+  workGithub: "https://github.com/cosmicrafts/cosmicrafts",
+  workRealLink: "https://cosmicrafts.com/",
+  projectId: 2,
+  description: "Cosmicrafts is a futuristic real‑time strategy (RTS) game built entirely on the Internet Computer (ICP) blockchain ecosystem. It features fleet-based interstellar combat, resource management, and procedurally generated star systems. As a fully on‑chain experience, not only are game assets NFTs, but player profiles, matchmaking rules, and in‑game rewards are governed via smart contracts. Eventually structured as a DAO via SNS, Cosmicrafts empowers its community with governance over game rules, tokenomics, and ecosystem growth.",
   stack: [
-    { stack: "ENS" },
-    { stack: "IPFS" },
-    { stack: "Next.js" },
-    { stack: "Pinata" },
-    { stack: "TypeScript" },
+    { stack: "ICP Motoko" },
+    { stack: "Node.js" },
+    { stack: "Unity" },
+    { stack: "Blockchain" },
   ],
   keya: [
-    { keya: "Decentralized CI/CD" },
-    { keya: "Github/Wallet/Goolge Login" },
-    { keya: "IPFS Hosting" },
-    { keya: "Supabase" },
+    { keya: "Game Development" },
+    { keya: "Smart Contracts" },
+    { keya: "NFT Integration" },
+    { keya: "DAO Governance" },
   ],
-  responsibility: "Web3 & Full Stack Developer",
-  techview1: "Developed decentralized CI/CD pipeline with GitHub integration for automated deployments.",
-  techview2: "Implemented IPFS-based storage solution for secure, distributed content hosting.",
-  techview3: "Integrated ENS for decentralized domain management and routing.",
-  issues: "Ensuring persistent file availability in distributed IPFS network.",
-  solutions: "Implemented Pinata integration for reliable file pinning and persistent storage management.",
+  responsibility: "ICP Motoko Developer, Fullstack Engineer",
+  techview1: "Led the development of a fully on-chain RTS game using ICP Motoko for smart contract development, implementing fleet-based interstellar combat mechanics and resource management systems.",
+  techview2: "Designed and developed procedurally generated star systems with NFT integration, ensuring all game assets are tokenized and governed by smart contracts for true ownership.",
+  techview3: "Implemented DAO governance structure via SNS (Service Nervous System), enabling community-driven decision making for game rules, tokenomics, and ecosystem growth.",
+  issues: "Complex on-chain game mechanics and real-time synchronization between multiple players across the ICP blockchain network.",
+  solutions: "Developed efficient smart contract architecture using Motoko, implemented real-time state management, and created robust matchmaking systems for seamless multiplayer experiences.",
+},
+
+{
+  id: 2,
+  title: "NFTropoly",
+  images: [
+    { url: "/images/projects/nftroly.png" },
+   
+  ],
+  workTabs: "Blockchain",
+  workContent: "Multi-Chain NFT Marketplace",
+  workGithub: "https://github.com/worldofunreal/nftropoly",
+  workRealLink: "https://nftropoly.com/",
+  projectId: 2,
+  description: "NFTropoly is a modern NFT marketplace for Bitcoin, Ethereum, Solana and the Internet Computer. The platform features cross-chain NFT trading, smart contract integration, and comprehensive Web3 functionality.",
+  stack: [
+    { stack: "Web3" },
+    { stack: "Smart Contracts" },
+    { stack: "Node.js" },
+    { stack: "DevOps" },
+  ],
+  keya: [
+    { keya: "Multi-Chain Support" },
+    { keya: "NFT Trading" },
+    { keya: "Smart Contracts" },
+    { keya: "Web Application" },
+  ],
+  responsibility: "Full-stack Developer",
+  techview1: "Developed a comprehensive NFT marketplace supporting multiple blockchain networks including Bitcoin, Ethereum, Solana, and Internet Computer for cross-chain trading capabilities.",
+  techview2: "Implemented smart contract integration for secure NFT transactions, automated royalty distribution, and decentralized marketplace operations.",
+  techview3: "Built robust Web3 infrastructure with wallet integration, transaction management, and real-time blockchain data synchronization for seamless user experience.",
+  issues: "Cross-chain compatibility and ensuring consistent user experience across different blockchain networks with varying transaction speeds and costs.",
+  solutions: "Implemented unified API layer for multi-chain operations, optimized gas fees, and created adaptive UI that handles different blockchain characteristics seamlessly.",
+},
+
+{
+  id: 3,
+  title: "Rush",
+  images: [
+    { url: "/images/projects/rush.png" },
+   
+  ],
+  workTabs: "Blockchain",
+  workContent: "Provably Fair Racing Game",
+  workGithub: "https://github.com/cosmicrafts/rush",
+  workRealLink: "https://rush.cosmicrafts.com/",
+  projectId: 2,
+  description: "Built on the Somnia Testnet, Cosmic Rush delivers provably fair races, instant payouts, and a fully automated gameplay experience with transparent smart contract execution.",
+  stack: [
+    { stack: "Nuxt.js" },
+    { stack: "Vue.js" },
+    { stack: "Solidity" },
+    { stack: "Smart Contracts" },
+  ],
+  keya: [
+    { keya: "Game Design" },
+    { keya: "Provably Fair" },
+    { keya: "Instant Payouts" },
+    { keya: "UX/UI Design" },
+  ],
+  responsibility: "Game Designer, Full-stack Developer, Smart Contracts and UX/UI Designer",
+  techview1: "Designed and developed a provably fair racing game using Solidity smart contracts on Somnia Testnet, ensuring transparent and verifiable race outcomes.",
+  techview2: "Built the frontend using Nuxt.js and Vue.js, creating an intuitive user interface for race participation, real-time updates, and instant payout processing.",
+  techview3: "Implemented automated gameplay systems with smart contract integration, enabling instant payouts and eliminating the need for manual intervention in race operations.",
+  issues: "Ensuring provably fair outcomes while maintaining fast gameplay and instant payouts without compromising security or user experience.",
+  solutions: "Developed transparent smart contract algorithms, implemented efficient blockchain integration, and created responsive UI that provides real-time feedback and instant transaction processing.",
 },
 
   // Ape-lol Pumpfun
   {
-    id: 101,
+    id: 4,
     title: "Ape-lol Pumpfun",
     images: [
       { url: "/images/projects/apelol.png" },
@@ -340,14 +392,14 @@ export const workExperience: WorkExperience[] = [
 
   // HOG
   {
-    id: 102,
+    id: 5,
     title: "Hand of God",
     images: [
       { url: "/images/projects/hog1.png" },
       { url: "/images/projects/hog2.png" },
     ],
     workTabs: "Blockchain",
-    workContent: "Lead Blockchain Developer",
+    workContent: "Multi-Token StableCoin DAO System",
     workGithub: "https://github.com/zerox-toml/HOG-Governance",
     workRealLink: "https://www.handofgod.app/",
     projectId: 1,
@@ -376,14 +428,14 @@ export const workExperience: WorkExperience[] = [
 
   // Champion City Poker
   {
-    id: 31,
+    id: 6,
     title: "Champion City Poker",
     images: [
       { url: "/images/projects/champion.png" },
       { url: "/images/projects/champion2.png" }
     ],
     workTabs: "Blockchain",
-    workContent: "Blockchain Developer",
+    workContent: "Texas Hold'em Poker Game",
     workGithub: "https://github.com/zerox-toml",
     workRealLink: "https://staging.ccpoker.games/",
     projectId: 4,
@@ -412,13 +464,13 @@ export const workExperience: WorkExperience[] = [
   },
   // Treasure Aptos NFT Game
   {
-    id: 106,
+    id: 7,
     title: "Treasure Aptos Tokenized Game",
     images: [
       { url: "/images/projects/treasure1.png" },
     ],
     workTabs: "Blockchain",
-    workContent: "Move Blockchain Developer",
+    workContent: "Geolocation-Based GamePlay",
     workGithub: "https://github.com/zerox-toml/Aptos-Clicker-Game-Contract",
     workRealLink: "https://aptostreasurehunt.vercel.app/",
     projectId: 1,
@@ -446,14 +498,14 @@ export const workExperience: WorkExperience[] = [
 
   // Frontier Registry
   {
-    id: 81,
+    id: 8,
     title: "Frontier Registry",
     images: [
       { url: "/images/projects/frontier1.png" },
       { url: "/images/projects/frontier2.png" }
     ],
     workTabs: "Blockchain",
-    workContent: "Blockchain Developer",
+    workContent: "Scientific research published and peer reviewed on-chain.",
     workGithub: "https://github.com/zerox-toml/Frontier-Registry-Contract-Stellar",
     workRealLink: "https://www.youtube.com/watch?v=lAxw35kjUzI",
     projectId: 4,
@@ -480,48 +532,52 @@ export const workExperience: WorkExperience[] = [
     solutions: "Frontier Registry carry out this issue by using AI Search Engine, provide on-line guide service using LLM RAG Chatbot.",
   },
 
+    // EarnLumens
+    {
+      id: 9,
+      title: "EarnLumens",
+      images: [
+        { url: "/images/projects/earnlumen.png" },
+      ],
+      workTabs: "Blockchain",
+      workContent: "Collaborative Financial Education Platform",
+      workGithub: "https://github.com/villadaniel750/uxstore",
+      workRealLink: "https://earnlumens.org/",
+      projectId: 4,
+      description: "EARNLUMENS is a collaborative platform where financial education meets real-world use. Learn to navigate the Stellar network, expand your financial potential, and share your knowledge to uplift others.",
+      stack: [
+        { stack: "Stellar Blockchain" },
+        { stack: "Rust" },
+        { stack: "Soroban SDK" },
+        { stack: "Vue.js" },
+        { stack: "Web3.js" },
+        { stack: "NFT" },
+      ],
+      keya: [
+        { keya: "Financial Education" },
+        { keya: "Collaborative Learning" },
+        { keya: "Stellar Network" },
+        { keya: "Knowledge Sharing" },
+      ],
+      responsibility: "Web3 Vue Frontend Developer",
+      techview1: "Developed a collaborative financial education platform on the Stellar network, enabling users to learn about blockchain technology and financial literacy in an interactive environment.",
+      techview2: "Implemented educational content delivery systems with real-world use cases, allowing users to expand their financial potential through hands-on learning experiences.",
+      techview3: "Created a knowledge-sharing ecosystem where users can contribute educational content and help uplift others in their blockchain and financial education journey.",
+      issues: "Creating an accessible platform for financial education that bridges the gap between theoretical knowledge and practical application on the Stellar blockchain network.",
+      solutions: "Built an intuitive Vue.js frontend with comprehensive educational modules, interactive tutorials, and community-driven content sharing to make blockchain education accessible to everyone.",
+    },
+
 
 
 
   
 
-  // Beowulf
-  // {
-  //   id: 24,
-  //   title: "Beowulf",
-  //   images: [
-  //     { url: "/images/projects/beowulf1.png" },
-  //     { url: "/images/projects/beowulf2.png" }
-  //   ],
-  //   workTabs: "Blockchain",
-  //   workContent: "",
-  //   workGithub: "",
-  //   workRealLink: "https://beowulfchain.com",
-  //   projectId: 1,
-  //   description: "The Beowulf's architecture provides a Decentralized Communication and Data Network by utilizing computing resources globally to form a supercomputer network. Combining with blockchain for a payment system, Beowulf brings in transparency for all users and miners of the network.",
-  //   stack: [
-  //     { stack: "Vue3" },
-  //     { stack: "Componsition API" },
-  //     { stack: "Web3.js" },
-  //     { stack: "TypeScript" },
-  //   ],
-  //   keya: [
-  //     { keya: "game-changing tools" },
-  //     { keya: "Wallet Integration" },
-  //     { keya: "The world-class network" },
-  //   ],
-  //   responsibility: "Web3 Frontend Developer",
-  //   techview1: "Beowulf turns computing resources worldwide into a global cloud computing network more powerful than a supercomputer to serve as communication services.",
-  //   techview2: "The payment for miners and expenses paid by users/businesses are made with real fiat via the W native coin.",
-  //   techview3: "The Beowulf blockchain employs Delegated Proof-of-Stake and native dual coin structure to ensure transparency for all transactions in the system.",
-  //   issues: "Interactions with Web3 (e.g., smart contract calls, fetching wallet balances, etc.) are asynchronous, which can cause issues with Vue's reactivity system and make it hard to maintain smooth user experience, loading states, and error handling.",
-  //   solutions: "Use Promises/Await: Ensure all Web3 calls are properly handled using JavaScript async/await or Promises. Make sure to handle data reactivity in Vue correctly. Use Vue's data() or ref()/reactive() (in Vue 3 with Composition API) to bind asynchronous Web3 data and update the UI reactively when the data changes.",
-  // },
+  
 
 
   // Sportsbox AI
   {
-    id: 41,
+    id: 20,
     title: "Sportsbox AI",
     images: [
       { url: "/images/projects/sportsbox.png" },
@@ -556,7 +612,7 @@ export const workExperience: WorkExperience[] = [
 
   // Wonder Chatbot
   {
-    id: 51,
+    id: 21,
     title: "Wonder Chatbot",
     images: [
       { url: "/images/projects/wonder.png" },
@@ -590,7 +646,7 @@ export const workExperience: WorkExperience[] = [
 
   // RAG Chatbot
   {
-    id: 55,
+    id: 22,
     title: "RAGChatbot",
     images: [
       { url: "/images/projects/ragchatbot.png" },
@@ -630,7 +686,7 @@ export const workExperience: WorkExperience[] = [
 
   // Roadninja
   {
-    id: 9,
+    id: 40,
     title: "Roadninja",
     images: [
       { url: "/images/projects/roadninja.png" },
@@ -664,41 +720,7 @@ export const workExperience: WorkExperience[] = [
 
   },
 
-  // Stronghold
-  // {
-  //   id: 5,
-  //   title: "Stronghold",
-  //   images: [
-  //     { url: "/images/projects/stronghold.png" },
-  //     { url: "/images/projects/stronghold2.png" }
-  //   ],
-  //   workTabs: "Blockchain",
-  //   workContent: "Open-source projects",
-  //   workGithub: "",
-  //   workRealLink: "https://stronghold.co/shx",
-  //   projectId: 2,
-  //   description: "Stronghold's expanding payments ecosystem uses the SHx token as a building block with real-world purpose. Integrate online and in-store payments using Stronghold Pay's APIs and libraries.",
-  //   stack: [
-  //     { stack: "Solidity" },
-  //     { stack: "Ethereum" },
-  //     { stack: "Next.js" },
-  //     { stack: "Web3.js" },
-  //   ],
-  //   keya: [
-  //     { keya: "" },
-  //     { keya: "Wallet Integration" },
-  //     { keya: "RAG Chatbot" },
-  //     { keya: "AI Search Engine" },
-  //   ],
-  //   responsibility: "Web3 Frontend Developer",
-  //   techview1: "Handled the development of smart contracts to manage transactions and asset storage, ensuring transparency and immutability, and created a Web3-integrated frontend for user interaction with decentralized features. The platform likely utilizes Ethereum or similar EVM-compatible blockchains, and wallet integrations (e.g., MetaMask) to enable smooth user onboarding and transaction handling.",
-  //   techview2: "The smart contracts were designed to maintain security and enforce contract logic, ensuring asset transfers and data storage were both secure and reliable on-chain.",
-  //   techview3: "On the frontend, implemented Web3.js or Ethers.js to connect the decentralized app (dApp) with the blockchain, handling real-time updates, user authentication, and transaction processing for a seamless decentralized experience.",
-  //   issues: "Frontend and Smart Contract Synchronization:Delays in transaction confirmation or network congestion could lead to frontend desynchronization, causing a lag in displayed information.",
-  //   solutions: "Integrated a real-time polling mechanism to refresh transaction status, and used event listeners for smart contracts to update the frontend upon state changes, ensuring that users received accurate, up-to-date information without noticeable lag.",
-  // },
-
- 
+  
 
   // TrueRev
   
@@ -706,7 +728,7 @@ export const workExperience: WorkExperience[] = [
 
    // Emarque
   {
-    id: 111,
+    id: 41,
     title: "Emarque",
     images: [
       { url: "/images/projects/marque.png" },
@@ -740,7 +762,7 @@ export const workExperience: WorkExperience[] = [
 
   // Carnival Fair
   {
-    id: 112,
+    id: 42,
     title: "Carnival Fair",
     images: [
       { url: "/images/projects/carnival.png" },
@@ -776,7 +798,7 @@ export const workExperience: WorkExperience[] = [
 
    // Medical Reservation System
   {
-    id: 37,
+    id: 43,
     title: "Medical Reservation System",
     images: [
       { url: "/images/projects/medical-system.png" },
@@ -820,65 +842,34 @@ export const resumeExp: resume[] = [
   {
     id: 1,
     title: "Blockchain & Full Stack Developer",
-    subtitle: "Blockchain",
-    desc: "- Worked on Substrate-based Blockchain. \n - Developed EarnLumens on Stellar.\n - Contributed blockchain infrastructure-Syntor protocol. \n - Built Python SDK & Indexer on Radiant.",
-    badge: "2024 - 2025",
+    subtitle: "World Of Unreal",
+    desc: "- Worked on Substrate-based Blockchain. \n - Developed EarnLumens on Stellar. \n - Developed Blockchain Metaverse Game in ICP. \n - Built Python SDK & Indexer on Radiant.",
+    badge: "2020 - 2025",
     experience: false,
     logo: "",
-    link: "https://www.syntor.ai/",
+    link: "https://cosmicrafts.com/",
   },
   {
     id: 9,
     title: "Blockchain Developer",
-    subtitle: "Opsec",
-    desc: "- Developed AI & Decentralized Cloud Computing Platform. \n - Designed StableCoin on Sonic. \n - Built perp-swap using Chainlink Oracles.",
-    badge: "2023 - 2024",
+    subtitle: "Tangible Trade",
+    desc: "- Designed StableCoin on Sonic. \n - Built perp-swap using Chainlink Oracles.",
+    badge: "2024 - 2025",
     experience: false,
     logo: "",
-    link: "https://www.opsec.computer/",
+    link: "https://www.handofgod.app/",
   },
 
-  {
-    id: 10,
-    title: "Smart Contract Developer",
-    subtitle: "G.U.Technologies",
-    desc: "- Developed a custom NFT launch platform on Solana using pumpfun architecture. \n - Frontier Registry, Treasure Aptos Game. \n - Developed cross-platform custodial wallets for desktop and mobile using svelte and react native. \n - Designed and implemented a cross-chain asset bridge. ...",
-    badge: "2022 - 2023",
-    experience: false,
-    logo: "",
-    link: "https://www.gu-tech.com/ja/about-us",
-  },
-
-  {
-    id: 2,
-    title: "Web3 Developer",
-    subtitle: "Osiz Technologies",
-    desc: "- Secured on-chain poker game on Ethereum & BNB. \n - Built responsive, real-time dashboards. \n - Developed scalable backend services web3 platforms using node, django.",
-    badge: "2020 - 2022",
-    logo: "",
-    experience: false,
-    link: "https://www.osiztechnologies.com/",
-  },
-  {
-    id: 3,
-    title: "Software Developer",
-    subtitle: "Roadninja",
-    desc: "- Developed Roadninja commercial platform web & mobile versions.",
-    badge: "2019 - 2020",
-    logo: "",
-    experience: false,
-    link: "https://www.roadninja.co.nz/",
-  },
 
   {
     id: 5,
     title: "Frontend Developer",
-    subtitle: "Third Eye",
-    desc: "- Built cross-platform mobile app using Flutter. \n - Developed backend API with NodeJS.",
-    badge: "2018 - 2019",
+    subtitle: "Road Ninja",
+    desc: "- Built SAAS platform using React Native, React. \n - Developed backend API with NodeJS, Laravel.",
+    badge: "2018 - 2020",
     logo: "",
     experience: false,
-    link: " https://thirdeyedata.ai/",
+    link: " https://www.roadninja.co.nz/",
   },
 
 
