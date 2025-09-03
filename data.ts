@@ -366,7 +366,7 @@ export const workExperience: WorkExperience[] = [
     workTabs: "Blockchain",
     workContent: "Solana Blockchain Developer",
     workGithub: "https://github.com/zerox-toml/pumpfun-solana",
-    workRealLink: "https://app.ape.lol/",
+    workRealLink: "",
     projectId: 1,
     description: "Developed smart contract and integrated with frontend.",
     stack: [
